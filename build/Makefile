@@ -231,6 +231,30 @@ P2.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/P2.dir/build.make CMakeFiles/P2.dir/P2.c.s
 .PHONY : P2.c.s
 
+Users/deemo/Desktop/workspace/Drone/code/lib/ICM_20948/src/util/ICM_20948_C.obj: Users/deemo/Desktop/workspace/Drone/code/lib/ICM_20948/src/util/ICM_20948_C.c.obj
+.PHONY : Users/deemo/Desktop/workspace/Drone/code/lib/ICM_20948/src/util/ICM_20948_C.obj
+
+# target to build an object file
+Users/deemo/Desktop/workspace/Drone/code/lib/ICM_20948/src/util/ICM_20948_C.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/P2.dir/build.make CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/Drone/code/lib/ICM_20948/src/util/ICM_20948_C.c.obj
+.PHONY : Users/deemo/Desktop/workspace/Drone/code/lib/ICM_20948/src/util/ICM_20948_C.c.obj
+
+Users/deemo/Desktop/workspace/Drone/code/lib/ICM_20948/src/util/ICM_20948_C.i: Users/deemo/Desktop/workspace/Drone/code/lib/ICM_20948/src/util/ICM_20948_C.c.i
+.PHONY : Users/deemo/Desktop/workspace/Drone/code/lib/ICM_20948/src/util/ICM_20948_C.i
+
+# target to preprocess a source file
+Users/deemo/Desktop/workspace/Drone/code/lib/ICM_20948/src/util/ICM_20948_C.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/P2.dir/build.make CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/Drone/code/lib/ICM_20948/src/util/ICM_20948_C.c.i
+.PHONY : Users/deemo/Desktop/workspace/Drone/code/lib/ICM_20948/src/util/ICM_20948_C.c.i
+
+Users/deemo/Desktop/workspace/Drone/code/lib/ICM_20948/src/util/ICM_20948_C.s: Users/deemo/Desktop/workspace/Drone/code/lib/ICM_20948/src/util/ICM_20948_C.c.s
+.PHONY : Users/deemo/Desktop/workspace/Drone/code/lib/ICM_20948/src/util/ICM_20948_C.s
+
+# target to generate assembly for a file
+Users/deemo/Desktop/workspace/Drone/code/lib/ICM_20948/src/util/ICM_20948_C.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/P2.dir/build.make CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/Drone/code/lib/ICM_20948/src/util/ICM_20948_C.c.s
+.PHONY : Users/deemo/Desktop/workspace/Drone/code/lib/ICM_20948/src/util/ICM_20948_C.c.s
+
 Users/deemo/Desktop/workspace/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.obj: Users/deemo/Desktop/workspace/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj
 .PHONY : Users/deemo/Desktop/workspace/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.obj
 
@@ -1039,6 +1063,30 @@ Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/P2.dir/build.make CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
 .PHONY : Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
 
+Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/hardware_spi/spi.obj: Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj
+.PHONY : Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/hardware_spi/spi.obj
+
+# target to build an object file
+Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/P2.dir/build.make CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj
+.PHONY : Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj
+
+Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/hardware_spi/spi.i: Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.i
+.PHONY : Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/hardware_spi/spi.i
+
+# target to preprocess a source file
+Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/P2.dir/build.make CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.i
+.PHONY : Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.i
+
+Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/hardware_spi/spi.s: Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.s
+.PHONY : Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/hardware_spi/spi.s
+
+# target to generate assembly for a file
+Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/P2.dir/build.make CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.s
+.PHONY : Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.s
+
 Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/hardware_sync/sync.obj: Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
 .PHONY : Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/hardware_sync/sync.obj
 
@@ -1705,6 +1753,9 @@ help:
 	@echo "... P2.obj"
 	@echo "... P2.i"
 	@echo "... P2.s"
+	@echo "... Users/deemo/Desktop/workspace/Drone/code/lib/ICM_20948/src/util/ICM_20948_C.obj"
+	@echo "... Users/deemo/Desktop/workspace/Drone/code/lib/ICM_20948/src/util/ICM_20948_C.i"
+	@echo "... Users/deemo/Desktop/workspace/Drone/code/lib/ICM_20948/src/util/ICM_20948_C.s"
 	@echo "... Users/deemo/Desktop/workspace/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.obj"
 	@echo "... Users/deemo/Desktop/workspace/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.i"
 	@echo "... Users/deemo/Desktop/workspace/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.s"
@@ -1806,6 +1857,9 @@ help:
 	@echo "... Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/hardware_pll/pll.obj"
 	@echo "... Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/hardware_pll/pll.i"
 	@echo "... Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/hardware_pll/pll.s"
+	@echo "... Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/hardware_spi/spi.obj"
+	@echo "... Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/hardware_spi/spi.i"
+	@echo "... Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/hardware_spi/spi.s"
 	@echo "... Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/hardware_sync/sync.obj"
 	@echo "... Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/hardware_sync/sync.i"
 	@echo "... Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/hardware_sync/sync.s"

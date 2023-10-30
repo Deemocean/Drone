@@ -29,6 +29,9 @@ CMakeFiles/P2.dir/P2.c.obj: \
  /opt/homebrew/Cellar/arm-none-eabi-gcc/10-2020-q4-major/gcc/arm-none-eabi/include/sys/sched.h \
  /opt/homebrew/Cellar/arm-none-eabi-gcc/10-2020-q4-major/gcc/arm-none-eabi/include/machine/types.h \
  /opt/homebrew/Cellar/arm-none-eabi-gcc/10-2020-q4-major/gcc/arm-none-eabi/include/sys/stdio.h \
+ /opt/homebrew/Cellar/arm-none-eabi-gcc/10-2020-q4-major/gcc/arm-none-eabi/include/stdlib.h \
+ /opt/homebrew/Cellar/arm-none-eabi-gcc/10-2020-q4-major/gcc/arm-none-eabi/include/machine/stdlib.h \
+ /opt/homebrew/Cellar/arm-none-eabi-gcc/10-2020-q4-major/gcc/arm-none-eabi/include/alloca.h \
  /Users/deemo/Desktop/workspace/pico/pico-sdk/src/common/pico_stdlib/include/pico/stdlib.h \
  /Users/deemo/Desktop/workspace/pico/pico-sdk/src/common/pico_base/include/pico.h \
  /Users/deemo/Desktop/workspace/pico/pico-sdk/src/common/pico_base/include/pico/types.h \
@@ -69,4 +72,14 @@ CMakeFiles/P2.dir/P2.c.obj: \
  /Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/uart.h \
  /Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/uart.h \
  /Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dreq.h \
- /Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h
+ /Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
+ /Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/hardware_spi/include/hardware/spi.h \
+ /Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/spi.h \
+ /Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/spi.h \
+ /Users/deemo/Desktop/workspace/Drone/code/src/../lib/ICM_20948/src/ICM_20948.h \
+ /Users/deemo/Desktop/workspace/Drone/code/src/../lib/ICM_20948/src/util/ICM_20948_C.h \
+ /Users/deemo/Desktop/workspace/Drone/code/src/../lib/ICM_20948/src/util/ICM_20948_REGISTERS.h \
+ /Users/deemo/Desktop/workspace/Drone/code/src/../lib/ICM_20948/src/util/ICM_20948_ENUMERATIONS.h \
+ /Users/deemo/Desktop/workspace/Drone/code/src/../lib/ICM_20948/src/util/AK09916_ENUMERATIONS.h \
+ /Users/deemo/Desktop/workspace/Drone/code/src/../lib/ICM_20948/src/util/ICM_20948_DMP.h \
+ /Users/deemo/Desktop/workspace/Drone/code/src/../lib/ICM_20948/src/util/AK09916_REGISTERS.h

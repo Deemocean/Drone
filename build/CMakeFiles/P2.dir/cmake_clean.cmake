@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/P2.dir/P2.c.obj"
   "CMakeFiles/P2.dir/P2.c.obj.d"
+  "CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/Drone/code/lib/ICM_20948/src/util/ICM_20948_C.c.obj"
+  "CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/Drone/code/lib/ICM_20948/src/util/ICM_20948_C.c.obj.d"
   "CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj"
   "CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj.d"
   "CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj"
@@ -69,6 +71,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj"
   "CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj"
   "CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj.d"
+  "CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj"
+  "CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj.d"
   "CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj"
   "CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj.d"
   "CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj"
