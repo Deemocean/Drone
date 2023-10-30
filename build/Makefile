@@ -231,29 +231,29 @@ P2.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/P2.dir/build.make CMakeFiles/P2.dir/P2.c.s
 .PHONY : P2.c.s
 
-Users/deemo/Desktop/workspace/Drone/code/lib/ICM_20948/src/util/ICM_20948_C.obj: Users/deemo/Desktop/workspace/Drone/code/lib/ICM_20948/src/util/ICM_20948_C.c.obj
-.PHONY : Users/deemo/Desktop/workspace/Drone/code/lib/ICM_20948/src/util/ICM_20948_C.obj
+Users/deemo/Desktop/workspace/Drone/code/lib/MPU9250/mpu9250.obj: Users/deemo/Desktop/workspace/Drone/code/lib/MPU9250/mpu9250.c.obj
+.PHONY : Users/deemo/Desktop/workspace/Drone/code/lib/MPU9250/mpu9250.obj
 
 # target to build an object file
-Users/deemo/Desktop/workspace/Drone/code/lib/ICM_20948/src/util/ICM_20948_C.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/P2.dir/build.make CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/Drone/code/lib/ICM_20948/src/util/ICM_20948_C.c.obj
-.PHONY : Users/deemo/Desktop/workspace/Drone/code/lib/ICM_20948/src/util/ICM_20948_C.c.obj
+Users/deemo/Desktop/workspace/Drone/code/lib/MPU9250/mpu9250.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/P2.dir/build.make CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/Drone/code/lib/MPU9250/mpu9250.c.obj
+.PHONY : Users/deemo/Desktop/workspace/Drone/code/lib/MPU9250/mpu9250.c.obj
 
-Users/deemo/Desktop/workspace/Drone/code/lib/ICM_20948/src/util/ICM_20948_C.i: Users/deemo/Desktop/workspace/Drone/code/lib/ICM_20948/src/util/ICM_20948_C.c.i
-.PHONY : Users/deemo/Desktop/workspace/Drone/code/lib/ICM_20948/src/util/ICM_20948_C.i
+Users/deemo/Desktop/workspace/Drone/code/lib/MPU9250/mpu9250.i: Users/deemo/Desktop/workspace/Drone/code/lib/MPU9250/mpu9250.c.i
+.PHONY : Users/deemo/Desktop/workspace/Drone/code/lib/MPU9250/mpu9250.i
 
 # target to preprocess a source file
-Users/deemo/Desktop/workspace/Drone/code/lib/ICM_20948/src/util/ICM_20948_C.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/P2.dir/build.make CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/Drone/code/lib/ICM_20948/src/util/ICM_20948_C.c.i
-.PHONY : Users/deemo/Desktop/workspace/Drone/code/lib/ICM_20948/src/util/ICM_20948_C.c.i
+Users/deemo/Desktop/workspace/Drone/code/lib/MPU9250/mpu9250.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/P2.dir/build.make CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/Drone/code/lib/MPU9250/mpu9250.c.i
+.PHONY : Users/deemo/Desktop/workspace/Drone/code/lib/MPU9250/mpu9250.c.i
 
-Users/deemo/Desktop/workspace/Drone/code/lib/ICM_20948/src/util/ICM_20948_C.s: Users/deemo/Desktop/workspace/Drone/code/lib/ICM_20948/src/util/ICM_20948_C.c.s
-.PHONY : Users/deemo/Desktop/workspace/Drone/code/lib/ICM_20948/src/util/ICM_20948_C.s
+Users/deemo/Desktop/workspace/Drone/code/lib/MPU9250/mpu9250.s: Users/deemo/Desktop/workspace/Drone/code/lib/MPU9250/mpu9250.c.s
+.PHONY : Users/deemo/Desktop/workspace/Drone/code/lib/MPU9250/mpu9250.s
 
 # target to generate assembly for a file
-Users/deemo/Desktop/workspace/Drone/code/lib/ICM_20948/src/util/ICM_20948_C.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/P2.dir/build.make CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/Drone/code/lib/ICM_20948/src/util/ICM_20948_C.c.s
-.PHONY : Users/deemo/Desktop/workspace/Drone/code/lib/ICM_20948/src/util/ICM_20948_C.c.s
+Users/deemo/Desktop/workspace/Drone/code/lib/MPU9250/mpu9250.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/P2.dir/build.make CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/Drone/code/lib/MPU9250/mpu9250.c.s
+.PHONY : Users/deemo/Desktop/workspace/Drone/code/lib/MPU9250/mpu9250.c.s
 
 Users/deemo/Desktop/workspace/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.obj: Users/deemo/Desktop/workspace/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj
 .PHONY : Users/deemo/Desktop/workspace/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.obj
@@ -1753,9 +1753,9 @@ help:
 	@echo "... P2.obj"
 	@echo "... P2.i"
 	@echo "... P2.s"
-	@echo "... Users/deemo/Desktop/workspace/Drone/code/lib/ICM_20948/src/util/ICM_20948_C.obj"
-	@echo "... Users/deemo/Desktop/workspace/Drone/code/lib/ICM_20948/src/util/ICM_20948_C.i"
-	@echo "... Users/deemo/Desktop/workspace/Drone/code/lib/ICM_20948/src/util/ICM_20948_C.s"
+	@echo "... Users/deemo/Desktop/workspace/Drone/code/lib/MPU9250/mpu9250.obj"
+	@echo "... Users/deemo/Desktop/workspace/Drone/code/lib/MPU9250/mpu9250.i"
+	@echo "... Users/deemo/Desktop/workspace/Drone/code/lib/MPU9250/mpu9250.s"
 	@echo "... Users/deemo/Desktop/workspace/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.obj"
 	@echo "... Users/deemo/Desktop/workspace/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.i"
 	@echo "... Users/deemo/Desktop/workspace/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.s"

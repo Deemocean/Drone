@@ -121,7 +121,7 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/deemo/Desktop/workspace/Drone/code/src/P2.c" "CMakeFiles/P2.dir/P2.c.obj" "gcc" "CMakeFiles/P2.dir/P2.c.obj.d"
-  "/Users/deemo/Desktop/workspace/Drone/code/lib/ICM_20948/src/util/ICM_20948_C.c" "CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/Drone/code/lib/ICM_20948/src/util/ICM_20948_C.c.obj" "gcc" "CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/Drone/code/lib/ICM_20948/src/util/ICM_20948_C.c.obj.d"
+  "/Users/deemo/Desktop/workspace/Drone/code/lib/MPU9250/mpu9250.c" "CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/Drone/code/lib/MPU9250/mpu9250.c.obj" "gcc" "CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/Drone/code/lib/MPU9250/mpu9250.c.obj.d"
   "/Users/deemo/Desktop/workspace/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c" "CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj" "gcc" "CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj.d"
   "/Users/deemo/Desktop/workspace/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c" "CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj" "gcc" "CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj.d"
   "/Users/deemo/Desktop/workspace/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c" "CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj" "gcc" "CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj.d"

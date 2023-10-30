@@ -83,19 +83,19 @@ CMakeFiles/P2.dir/P2.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/P2.dir/P2.c.s"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/deemo/Desktop/workspace/Drone/code/src/P2.c -o CMakeFiles/P2.dir/P2.c.s
 
-CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/Drone/code/lib/ICM_20948/src/util/ICM_20948_C.c.obj: CMakeFiles/P2.dir/flags.make
-CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/Drone/code/lib/ICM_20948/src/util/ICM_20948_C.c.obj: /Users/deemo/Desktop/workspace/Drone/code/lib/ICM_20948/src/util/ICM_20948_C.c
-CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/Drone/code/lib/ICM_20948/src/util/ICM_20948_C.c.obj: CMakeFiles/P2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/deemo/Desktop/workspace/Drone/code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/Drone/code/lib/ICM_20948/src/util/ICM_20948_C.c.obj"
-	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/Drone/code/lib/ICM_20948/src/util/ICM_20948_C.c.obj -MF CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/Drone/code/lib/ICM_20948/src/util/ICM_20948_C.c.obj.d -o CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/Drone/code/lib/ICM_20948/src/util/ICM_20948_C.c.obj -c /Users/deemo/Desktop/workspace/Drone/code/lib/ICM_20948/src/util/ICM_20948_C.c
+CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/Drone/code/lib/MPU9250/mpu9250.c.obj: CMakeFiles/P2.dir/flags.make
+CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/Drone/code/lib/MPU9250/mpu9250.c.obj: /Users/deemo/Desktop/workspace/Drone/code/lib/MPU9250/mpu9250.c
+CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/Drone/code/lib/MPU9250/mpu9250.c.obj: CMakeFiles/P2.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/deemo/Desktop/workspace/Drone/code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/Drone/code/lib/MPU9250/mpu9250.c.obj"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/Drone/code/lib/MPU9250/mpu9250.c.obj -MF CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/Drone/code/lib/MPU9250/mpu9250.c.obj.d -o CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/Drone/code/lib/MPU9250/mpu9250.c.obj -c /Users/deemo/Desktop/workspace/Drone/code/lib/MPU9250/mpu9250.c
 
-CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/Drone/code/lib/ICM_20948/src/util/ICM_20948_C.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/Drone/code/lib/ICM_20948/src/util/ICM_20948_C.c.i"
-	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/deemo/Desktop/workspace/Drone/code/lib/ICM_20948/src/util/ICM_20948_C.c > CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/Drone/code/lib/ICM_20948/src/util/ICM_20948_C.c.i
+CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/Drone/code/lib/MPU9250/mpu9250.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/Drone/code/lib/MPU9250/mpu9250.c.i"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/deemo/Desktop/workspace/Drone/code/lib/MPU9250/mpu9250.c > CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/Drone/code/lib/MPU9250/mpu9250.c.i
 
-CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/Drone/code/lib/ICM_20948/src/util/ICM_20948_C.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/Drone/code/lib/ICM_20948/src/util/ICM_20948_C.c.s"
-	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/deemo/Desktop/workspace/Drone/code/lib/ICM_20948/src/util/ICM_20948_C.c -o CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/Drone/code/lib/ICM_20948/src/util/ICM_20948_C.c.s
+CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/Drone/code/lib/MPU9250/mpu9250.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/Drone/code/lib/MPU9250/mpu9250.c.s"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/deemo/Desktop/workspace/Drone/code/lib/MPU9250/mpu9250.c -o CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/Drone/code/lib/MPU9250/mpu9250.c.s
 
 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: CMakeFiles/P2.dir/flags.make
 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: /Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c
@@ -1055,7 +1055,7 @@ CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/har
 # Object files for target P2
 P2_OBJECTS = \
 "CMakeFiles/P2.dir/P2.c.obj" \
-"CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/Drone/code/lib/ICM_20948/src/util/ICM_20948_C.c.obj" \
+"CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/Drone/code/lib/MPU9250/mpu9250.c.obj" \
 "CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj" \
 "CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj" \
 "CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj" \
@@ -1130,7 +1130,7 @@ P2_OBJECTS = \
 P2_EXTERNAL_OBJECTS =
 
 P2.elf: CMakeFiles/P2.dir/P2.c.obj
-P2.elf: CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/Drone/code/lib/ICM_20948/src/util/ICM_20948_C.c.obj
+P2.elf: CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/Drone/code/lib/MPU9250/mpu9250.c.obj
 P2.elf: CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
 P2.elf: CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
 P2.elf: CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj

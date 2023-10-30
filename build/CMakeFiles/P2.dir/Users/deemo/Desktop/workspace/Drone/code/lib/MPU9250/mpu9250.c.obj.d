@@ -1,5 +1,6 @@
-CMakeFiles/P2.dir/P2.c.obj: \
- /Users/deemo/Desktop/workspace/Drone/code/src/P2.c \
+CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/Drone/code/lib/MPU9250/mpu9250.c.obj: \
+ /Users/deemo/Desktop/workspace/Drone/code/lib/MPU9250/mpu9250.c \
+ /Users/deemo/Desktop/workspace/Drone/code/lib/MPU9250/mpu9250.h \
  /opt/homebrew/Cellar/arm-none-eabi-gcc/10-2020-q4-major/gcc/arm-none-eabi/include/stdio.h \
  /opt/homebrew/Cellar/arm-none-eabi-gcc/10-2020-q4-major/gcc/arm-none-eabi/include/_ansi.h \
  /opt/homebrew/Cellar/arm-none-eabi-gcc/10-2020-q4-major/gcc/arm-none-eabi/include/newlib.h \
@@ -79,5 +80,4 @@ CMakeFiles/P2.dir/P2.c.obj: \
  /Users/deemo/Desktop/workspace/pico/pico-sdk/src/common/pico_binary_info/include/pico/binary_info.h \
  /Users/deemo/Desktop/workspace/pico/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/defs.h \
  /Users/deemo/Desktop/workspace/pico/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/structure.h \
- /Users/deemo/Desktop/workspace/pico/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/code.h \
- /Users/deemo/Desktop/workspace/Drone/code/src/../lib/MPU9250/mpu9250.h
+ /Users/deemo/Desktop/workspace/pico/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/code.h

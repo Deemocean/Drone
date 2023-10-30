@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/P2.dir/P2.c.obj"
   "CMakeFiles/P2.dir/P2.c.obj.d"
-  "CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/Drone/code/lib/ICM_20948/src/util/ICM_20948_C.c.obj"
-  "CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/Drone/code/lib/ICM_20948/src/util/ICM_20948_C.c.obj.d"
+  "CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/Drone/code/lib/MPU9250/mpu9250.c.obj"
+  "CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/Drone/code/lib/MPU9250/mpu9250.c.obj.d"
   "CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj"
   "CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj.d"
   "CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj"

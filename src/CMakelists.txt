@@ -16,7 +16,7 @@ pico_enable_stdio_uart(P2 0)
 # add_compile_options(-Ofast)
 
 # must match with executable name and source file names
-target_sources(P2 PRIVATE P2.c ../lib/ICM_20948/src/util/ICM_20948_C.c)
+target_sources(P2 PRIVATE P2.c ../lib/MPU9250/mpu9250.c)
 
 # Add pico_multicore which is required for multicore functionality
 target_link_libraries(P2 pico_stdlib hardware_spi)
