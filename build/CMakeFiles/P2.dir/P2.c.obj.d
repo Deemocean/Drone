@@ -76,10 +76,7 @@ CMakeFiles/P2.dir/P2.c.obj: \
  /Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/hardware_spi/include/hardware/spi.h \
  /Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/spi.h \
  /Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/spi.h \
- /Users/deemo/Desktop/workspace/Drone/code/src/../lib/ICM_20948/src/ICM_20948.h \
- /Users/deemo/Desktop/workspace/Drone/code/src/../lib/ICM_20948/src/util/ICM_20948_C.h \
- /Users/deemo/Desktop/workspace/Drone/code/src/../lib/ICM_20948/src/util/ICM_20948_REGISTERS.h \
- /Users/deemo/Desktop/workspace/Drone/code/src/../lib/ICM_20948/src/util/ICM_20948_ENUMERATIONS.h \
- /Users/deemo/Desktop/workspace/Drone/code/src/../lib/ICM_20948/src/util/AK09916_ENUMERATIONS.h \
- /Users/deemo/Desktop/workspace/Drone/code/src/../lib/ICM_20948/src/util/ICM_20948_DMP.h \
- /Users/deemo/Desktop/workspace/Drone/code/src/../lib/ICM_20948/src/util/AK09916_REGISTERS.h
+ /Users/deemo/Desktop/workspace/pico/pico-sdk/src/common/pico_binary_info/include/pico/binary_info.h \
+ /Users/deemo/Desktop/workspace/pico/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/defs.h \
+ /Users/deemo/Desktop/workspace/pico/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/structure.h \
+ /Users/deemo/Desktop/workspace/pico/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/code.h

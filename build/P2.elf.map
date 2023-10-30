@@ -53,18 +53,15 @@ Discarded input sections
  .text          0x0000000000000000        0x0 CMakeFiles/P2.dir/P2.c.obj
  .data          0x0000000000000000        0x0 CMakeFiles/P2.dir/P2.c.obj
  .bss           0x0000000000000000        0x0 CMakeFiles/P2.dir/P2.c.obj
- .text.getAccMG
-                0x0000000000000000       0x80 CMakeFiles/P2.dir/P2.c.obj
- .text.getGyrDPS
-                0x0000000000000000       0x6c CMakeFiles/P2.dir/P2.c.obj
- .text.getMagUT
-                0x0000000000000000       0x20 CMakeFiles/P2.dir/P2.c.obj
- .text.getTmpC  0x0000000000000000       0x20 CMakeFiles/P2.dir/P2.c.obj
  .text          0x0000000000000000        0x0 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/Drone/code/lib/ICM_20948/src/util/ICM_20948_C.c.obj
  .data          0x0000000000000000        0x0 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/Drone/code/lib/ICM_20948/src/util/ICM_20948_C.c.obj
  .bss           0x0000000000000000        0x0 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/Drone/code/lib/ICM_20948/src/util/ICM_20948_C.c.obj
  .text.ICM_20948_i2c_controller_periph4_txn.constprop.0
                 0x0000000000000000      0x22c CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/Drone/code/lib/ICM_20948/src/util/ICM_20948_C.c.obj
+ .text.ICM_20948_init_struct
+                0x0000000000000000       0x14 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/Drone/code/lib/ICM_20948/src/util/ICM_20948_C.c.obj
+ .text.ICM_20948_link_serif
+                0x0000000000000000       0x14 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/Drone/code/lib/ICM_20948/src/util/ICM_20948_C.c.obj
  .text.ICM_20948_execute_w
                 0x0000000000000000       0x1c CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/Drone/code/lib/ICM_20948/src/util/ICM_20948_C.c.obj
  .text.ICM_20948_execute_r
@@ -77,8 +74,18 @@ Discarded input sections
                 0x0000000000000000       0x10 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/Drone/code/lib/ICM_20948/src/util/ICM_20948_C.c.obj
  .text.ICM_20948_set_bank
                 0x0000000000000000       0x3c CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/Drone/code/lib/ICM_20948/src/util/ICM_20948_C.c.obj
+ .text.ICM_20948_sw_reset
+                0x0000000000000000       0x64 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/Drone/code/lib/ICM_20948/src/util/ICM_20948_C.c.obj
+ .text.ICM_20948_sleep
+                0x0000000000000000       0x6c CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/Drone/code/lib/ICM_20948/src/util/ICM_20948_C.c.obj
+ .text.ICM_20948_low_power
+                0x0000000000000000       0x6c CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/Drone/code/lib/ICM_20948/src/util/ICM_20948_C.c.obj
  .text.ICM_20948_set_clock_source
                 0x0000000000000000       0x68 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/Drone/code/lib/ICM_20948/src/util/ICM_20948_C.c.obj
+ .text.ICM_20948_get_who_am_i
+                0x0000000000000000       0x4c CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/Drone/code/lib/ICM_20948/src/util/ICM_20948_C.c.obj
+ .text.ICM_20948_check_id
+                0x0000000000000000       0x54 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/Drone/code/lib/ICM_20948/src/util/ICM_20948_C.c.obj
  .text.ICM_20948_data_ready
                 0x0000000000000000       0x54 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/Drone/code/lib/ICM_20948/src/util/ICM_20948_C.c.obj
  .text.ICM_20948_int_pin_cfg
@@ -89,6 +96,14 @@ Discarded input sections
                 0x0000000000000000       0x98 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/Drone/code/lib/ICM_20948/src/util/ICM_20948_C.c.obj
  .text.ICM_20948_wom_threshold
                 0x0000000000000000       0x80 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/Drone/code/lib/ICM_20948/src/util/ICM_20948_C.c.obj
+ .text.ICM_20948_set_sample_mode
+                0x0000000000000000      0x130 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/Drone/code/lib/ICM_20948/src/util/ICM_20948_C.c.obj
+ .text.ICM_20948_set_full_scale
+                0x0000000000000000      0x1a0 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/Drone/code/lib/ICM_20948/src/util/ICM_20948_C.c.obj
+ .text.ICM_20948_set_dlpf_cfg
+                0x0000000000000000      0x19c CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/Drone/code/lib/ICM_20948/src/util/ICM_20948_C.c.obj
+ .text.ICM_20948_enable_dlpf
+                0x0000000000000000      0x198 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/Drone/code/lib/ICM_20948/src/util/ICM_20948_C.c.obj
  .text.ICM_20948_set_sample_rate
                 0x0000000000000000      0x104 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/Drone/code/lib/ICM_20948/src/util/ICM_20948_C.c.obj
  .text.ICM_20948_i2c_master_passthrough
@@ -99,6 +114,8 @@ Discarded input sections
                 0x0000000000000000       0x68 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/Drone/code/lib/ICM_20948/src/util/ICM_20948_C.c.obj
  .text.ICM_20948_i2c_controller_configure_peripheral
                 0x0000000000000000      0x128 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/Drone/code/lib/ICM_20948/src/util/ICM_20948_C.c.obj
+ .text.ICM_20948_get_agmt
+                0x0000000000000000      0x1c4 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/Drone/code/lib/ICM_20948/src/util/ICM_20948_C.c.obj
  .text.ICM_20948_enable_FIFO
                 0x0000000000000000       0x70 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/Drone/code/lib/ICM_20948/src/util/ICM_20948_C.c.obj
  .text.ICM_20948_reset_FIFO
@@ -159,6 +176,9 @@ Discarded input sections
                 0x0000000000000000        0xc CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/Drone/code/lib/ICM_20948/src/util/ICM_20948_C.c.obj
  .rodata.inv_androidSensor_to_control_bits
                 0x0000000000000000       0x58 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/Drone/code/lib/ICM_20948/src/util/ICM_20948_C.c.obj
+ .comment       0x0000000000000000       0x4e CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/Drone/code/lib/ICM_20948/src/util/ICM_20948_C.c.obj
+ .ARM.attributes
+                0x0000000000000000       0x2c CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/Drone/code/lib/ICM_20948/src/util/ICM_20948_C.c.obj
  .text          0x0000000000000000        0x0 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
  .data          0x0000000000000000        0x0 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
  .bss           0x0000000000000000        0x0 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
@@ -370,8 +390,6 @@ Discarded input sections
                 0x0000000000000000       0x8c CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/common/pico_time/time.c.obj
  .text.alarm_pool_dump
                 0x0000000000000000       0x34 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/common/pico_time/time.c.obj
- .text.sleep_us
-                0x0000000000000000       0x24 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/common/pico_time/time.c.obj
  .rodata.at_the_end_of_time
                 0x0000000000000000        0x8 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/common/pico_time/time.c.obj
  .rodata.nil_time
@@ -1211,9 +1229,9 @@ Discarded input sections
                 0x0000000000000000       0x50 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj
  .time_critical.spi_read16_blocking
                 0x0000000000000000       0x74 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj
- .text          0x0000000000000000        0x0 /var/folders/cq/cqm68txs2bb19051cyzl5q5h0000gn/T//ccH5S2Qs.o
- .data          0x0000000000000000        0x0 /var/folders/cq/cqm68txs2bb19051cyzl5q5h0000gn/T//ccH5S2Qs.o
- .bss           0x0000000000000000        0x0 /var/folders/cq/cqm68txs2bb19051cyzl5q5h0000gn/T//ccH5S2Qs.o
+ .text          0x0000000000000000        0x0 /var/folders/cq/cqm68txs2bb19051cyzl5q5h0000gn/T//cc7jCd1q.o
+ .data          0x0000000000000000        0x0 /var/folders/cq/cqm68txs2bb19051cyzl5q5h0000gn/T//cc7jCd1q.o
+ .bss           0x0000000000000000        0x0 /var/folders/cq/cqm68txs2bb19051cyzl5q5h0000gn/T//cc7jCd1q.o
  .data          0x0000000000000000        0x0 /opt/homebrew/Cellar/arm-none-eabi-gcc/10-2020-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
  .bss           0x0000000000000000        0x0 /opt/homebrew/Cellar/arm-none-eabi-gcc/10-2020-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
  .text          0x0000000000000000        0x0 /opt/homebrew/Cellar/arm-none-eabi-gcc/10-2020-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-calloc.o)
@@ -1429,11 +1447,11 @@ LOAD /opt/homebrew/Cellar/arm-none-eabi-gcc/10-2020-q4-major/gcc/bin/../lib/gcc/
 .boot2          0x0000000010000000      0x100
                 0x0000000010000000                __boot2_start__ = .
  *(.boot2)
- .boot2         0x0000000010000000      0x100 /var/folders/cq/cqm68txs2bb19051cyzl5q5h0000gn/T//ccH5S2Qs.o
+ .boot2         0x0000000010000000      0x100 /var/folders/cq/cqm68txs2bb19051cyzl5q5h0000gn/T//cc7jCd1q.o
                 0x0000000010000100                __boot2_end__ = .
                 0x0000000000000001                ASSERT (((__boot2_end__ - __boot2_start__) == 0x100), ERROR: Pico second stage bootloader must be 256 bytes in size)
 
-.text           0x0000000010000100     0x7190
+.text           0x0000000010000100     0x6648
                 0x0000000010000100                __logical_binary_start = .
  *(.vectors)
  .vectors       0x0000000010000100       0xd4 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
@@ -1494,598 +1512,554 @@ LOAD /opt/homebrew/Cellar/arm-none-eabi-gcc/10-2020-q4-major/gcc/bin/../lib/gcc/
                 0x00000000100002b8                _init
  *(EXCLUDE_FILE(*libm.a: *libc.a:*lib_a-mem*.o *libgcc.a:) .text*)
  .text          0x00000000100002bc       0x48 /opt/homebrew/Cellar/arm-none-eabi-gcc/10-2020-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v6-m/nofp/crtbegin.o
- .text.my_write_spi
-                0x0000000010000304       0x5c CMakeFiles/P2.dir/P2.c.obj
-                0x0000000010000304                my_write_spi
- .text.my_read_spi
-                0x0000000010000360       0x60 CMakeFiles/P2.dir/P2.c.obj
-                0x0000000010000360                my_read_spi
- .text.printPaddedInt16b
-                0x00000000100003c0       0xa8 CMakeFiles/P2.dir/P2.c.obj
-                0x00000000100003c0                printPaddedInt16b
- .text.printRawAGMT
-                0x0000000010000468       0xdc CMakeFiles/P2.dir/P2.c.obj
-                0x0000000010000468                printRawAGMT
  .text.startup.main
-                0x0000000010000544      0x198 CMakeFiles/P2.dir/P2.c.obj
-                0x0000000010000544                main
- .text.ICM_20948_init_struct
-                0x00000000100006dc       0x14 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/Drone/code/lib/ICM_20948/src/util/ICM_20948_C.c.obj
-                0x00000000100006dc                ICM_20948_init_struct
- .text.ICM_20948_link_serif
-                0x00000000100006f0       0x14 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/Drone/code/lib/ICM_20948/src/util/ICM_20948_C.c.obj
-                0x00000000100006f0                ICM_20948_link_serif
- .text.ICM_20948_sw_reset
-                0x0000000010000704       0x64 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/Drone/code/lib/ICM_20948/src/util/ICM_20948_C.c.obj
-                0x0000000010000704                ICM_20948_sw_reset
- .text.ICM_20948_sleep
-                0x0000000010000768       0x6c CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/Drone/code/lib/ICM_20948/src/util/ICM_20948_C.c.obj
-                0x0000000010000768                ICM_20948_sleep
- .text.ICM_20948_low_power
-                0x00000000100007d4       0x6c CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/Drone/code/lib/ICM_20948/src/util/ICM_20948_C.c.obj
-                0x00000000100007d4                ICM_20948_low_power
- .text.ICM_20948_get_who_am_i
-                0x0000000010000840       0x4c CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/Drone/code/lib/ICM_20948/src/util/ICM_20948_C.c.obj
-                0x0000000010000840                ICM_20948_get_who_am_i
- .text.ICM_20948_check_id
-                0x000000001000088c       0x54 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/Drone/code/lib/ICM_20948/src/util/ICM_20948_C.c.obj
-                0x000000001000088c                ICM_20948_check_id
- .text.ICM_20948_set_sample_mode
-                0x00000000100008e0      0x130 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/Drone/code/lib/ICM_20948/src/util/ICM_20948_C.c.obj
-                0x00000000100008e0                ICM_20948_set_sample_mode
- .text.ICM_20948_set_full_scale
-                0x0000000010000a10      0x1a0 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/Drone/code/lib/ICM_20948/src/util/ICM_20948_C.c.obj
-                0x0000000010000a10                ICM_20948_set_full_scale
- .text.ICM_20948_set_dlpf_cfg
-                0x0000000010000bb0      0x19c CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/Drone/code/lib/ICM_20948/src/util/ICM_20948_C.c.obj
-                0x0000000010000bb0                ICM_20948_set_dlpf_cfg
- .text.ICM_20948_enable_dlpf
-                0x0000000010000d4c      0x198 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/Drone/code/lib/ICM_20948/src/util/ICM_20948_C.c.obj
-                0x0000000010000d4c                ICM_20948_enable_dlpf
- .text.ICM_20948_get_agmt
-                0x0000000010000ee4      0x1c4 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/Drone/code/lib/ICM_20948/src/util/ICM_20948_C.c.obj
-                0x0000000010000ee4                ICM_20948_get_agmt
+                0x0000000010000304      0x234 CMakeFiles/P2.dir/P2.c.obj
+                0x0000000010000304                main
  .text.gpio_set_function
-                0x00000000100010a8       0x30 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
-                0x00000000100010a8                gpio_set_function
+                0x0000000010000538       0x30 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+                0x0000000010000538                gpio_set_function
  .text.gpio_init
-                0x00000000100010d8       0x3c CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
-                0x00000000100010d8                gpio_init
+                0x0000000010000568       0x3c CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+                0x0000000010000568                gpio_init
  .text.running_on_fpga
-                0x0000000010001114       0x10 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
-                0x0000000010001114                running_on_fpga
+                0x00000000100005a4       0x10 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
+                0x00000000100005a4                running_on_fpga
  .text.hw_claim_or_assert
-                0x0000000010001124       0x44 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
-                0x0000000010001124                hw_claim_or_assert
+                0x00000000100005b4       0x44 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+                0x00000000100005b4                hw_claim_or_assert
  .text.hw_claim_unused_from_range
-                0x0000000010001168       0x9c CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
-                0x0000000010001168                hw_claim_unused_from_range
+                0x00000000100005f8       0x9c CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+                0x00000000100005f8                hw_claim_unused_from_range
  .text.spin_locks_reset
-                0x0000000010001204       0x1c CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
-                0x0000000010001204                spin_locks_reset
+                0x0000000010000694       0x1c CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+                0x0000000010000694                spin_locks_reset
  .text.next_striped_spin_lock_num
-                0x0000000010001220       0x18 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
-                0x0000000010001220                next_striped_spin_lock_num
+                0x00000000100006b0       0x18 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+                0x00000000100006b0                next_striped_spin_lock_num
  .text.spin_lock_claim_unused
-                0x0000000010001238       0x20 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
-                0x0000000010001238                spin_lock_claim_unused
+                0x00000000100006c8       0x20 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+                0x00000000100006c8                spin_lock_claim_unused
  .text.irq_set_enabled
-                0x0000000010001258       0x24 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x0000000010001258                irq_set_enabled
+                0x00000000100006e8       0x24 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x00000000100006e8                irq_set_enabled
  .text.irq_set_pending
-                0x000000001000127c       0x10 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x000000001000127c                irq_set_pending
+                0x000000001000070c       0x10 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x000000001000070c                irq_set_pending
  .text.irq_has_shared_handler
-                0x000000001000128c       0x2c CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x000000001000128c                irq_has_shared_handler
+                0x000000001000071c       0x2c CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x000000001000071c                irq_has_shared_handler
  .text.irq_get_vtable_handler
-                0x00000000100012b8       0x10 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x00000000100012b8                irq_get_vtable_handler
+                0x0000000010000748       0x10 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x0000000010000748                irq_get_vtable_handler
  .text.irq_set_exclusive_handler
-                0x00000000100012c8       0x54 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x00000000100012c8                irq_set_exclusive_handler
+                0x0000000010000758       0x54 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x0000000010000758                irq_set_exclusive_handler
  .text.irq_add_shared_handler
-                0x000000001000131c      0x1e8 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x000000001000131c                irq_add_shared_handler
+                0x00000000100007ac      0x1e8 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x00000000100007ac                irq_add_shared_handler
  .text.irq_remove_handler
-                0x0000000010001504      0x1b0 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x0000000010001504                irq_remove_handler
+                0x0000000010000994      0x1b0 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x0000000010000994                irq_remove_handler
  .text.irq_add_tail_to_free_list
-                0x00000000100016b4       0xb4 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x00000000100016b4                irq_add_tail_to_free_list
+                0x0000000010000b44       0xb4 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x0000000010000b44                irq_add_tail_to_free_list
  .text.irq_init_priorities
-                0x0000000010001768       0x24 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x0000000010001768                irq_init_priorities
+                0x0000000010000bf8       0x24 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x0000000010000bf8                irq_init_priorities
  .text.user_irq_claim_unused
-                0x000000001000178c       0x28 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x000000001000178c                user_irq_claim_unused
+                0x0000000010000c1c       0x28 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x0000000010000c1c                user_irq_claim_unused
  .text.lock_init
-                0x00000000100017b4       0x10 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
-                0x00000000100017b4                lock_init
+                0x0000000010000c44       0x10 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
+                0x0000000010000c44                lock_init
  .text.mutex_init
-                0x00000000100017c4       0x1c CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
-                0x00000000100017c4                mutex_init
+                0x0000000010000c54       0x1c CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+                0x0000000010000c54                mutex_init
  .text.recursive_mutex_init
-                0x00000000100017e0       0x1c CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
-                0x00000000100017e0                recursive_mutex_init
+                0x0000000010000c70       0x1c CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+                0x0000000010000c70                recursive_mutex_init
  .text.critical_section_init
-                0x00000000100017fc       0x20 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
-                0x00000000100017fc                critical_section_init
+                0x0000000010000c8c       0x20 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
+                0x0000000010000c8c                critical_section_init
  .text.critical_section_init_with_lock_num
-                0x000000001000181c       0x14 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
-                0x000000001000181c                critical_section_init_with_lock_num
+                0x0000000010000cac       0x14 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
+                0x0000000010000cac                critical_section_init_with_lock_num
  .text.timer_pool_entry_comparator
-                0x0000000010001830       0x34 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x0000000010001830                timer_pool_entry_comparator
+                0x0000000010000cc0       0x34 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x0000000010000cc0                timer_pool_entry_comparator
  .text.sleep_until_callback
-                0x0000000010001864       0x30 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x0000000010000cf4       0x30 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/common/pico_time/time.c.obj
  .text.add_alarm_under_lock.isra.0
-                0x0000000010001894      0x100 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x0000000010000d24      0x100 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/common/pico_time/time.c.obj
  .text.alarm_pool_alarm_callback
-                0x0000000010001994      0x1bc CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x0000000010000e24      0x1bc CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/common/pico_time/time.c.obj
  .text.alarm_pool_init_default
-                0x0000000010001b50       0x6c CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x0000000010001b50                alarm_pool_init_default
+                0x0000000010000fe0       0x6c CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x0000000010000fe0                alarm_pool_init_default
  .text.alarm_pool_get_default
-                0x0000000010001bbc        0x8 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x0000000010001bbc                alarm_pool_get_default
+                0x000000001000104c        0x8 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x000000001000104c                alarm_pool_get_default
  .text.alarm_pool_add_alarm_at
-                0x0000000010001bc4      0x178 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x0000000010001bc4                alarm_pool_add_alarm_at
+                0x0000000010001054      0x178 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x0000000010001054                alarm_pool_add_alarm_at
  .text.alarm_pool_core_num
-                0x0000000010001d3c        0x4 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x0000000010001d3c                alarm_pool_core_num
+                0x00000000100011cc        0x4 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x00000000100011cc                alarm_pool_core_num
  .text.sleep_until
-                0x0000000010001d40       0xc4 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x0000000010001d40                sleep_until
+                0x00000000100011d0       0xc4 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x00000000100011d0                sleep_until
+ .text.sleep_us
+                0x0000000010001294       0x24 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x0000000010001294                sleep_us
  .text.sleep_ms
-                0x0000000010001e04       0x34 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x0000000010001e04                sleep_ms
+                0x00000000100012b8       0x34 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x00000000100012b8                sleep_ms
  .text.best_effort_wfe_or_timeout
-                0x0000000010001e38       0xd4 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x0000000010001e38                best_effort_wfe_or_timeout
+                0x00000000100012ec       0xd4 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x00000000100012ec                best_effort_wfe_or_timeout
  .text.hardware_alarm_irq_handler
-                0x0000000010001f0c       0xbc CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x00000000100013c0       0xbc CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
  .text.hardware_alarm_claim
-                0x0000000010001fc8       0x18 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x0000000010001fc8                hardware_alarm_claim
+                0x000000001000147c       0x18 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x000000001000147c                hardware_alarm_claim
  .text.time_us_64
-                0x0000000010001fe0       0x14 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x0000000010001fe0                time_us_64
+                0x0000000010001494       0x14 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x0000000010001494                time_us_64
  .text.busy_wait_until
-                0x0000000010001ff4       0x20 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x0000000010001ff4                busy_wait_until
+                0x00000000100014a8       0x20 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x00000000100014a8                busy_wait_until
  .text.hardware_alarm_set_callback
-                0x0000000010002014       0x8c CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x0000000010002014                hardware_alarm_set_callback
+                0x00000000100014c8       0x8c CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x00000000100014c8                hardware_alarm_set_callback
  .text.hardware_alarm_set_target
-                0x00000000100020a0       0xd4 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x00000000100020a0                hardware_alarm_set_target
+                0x0000000010001554       0xd4 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x0000000010001554                hardware_alarm_set_target
  .text.hardware_alarm_cancel
-                0x0000000010002174       0x3c CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x0000000010002174                hardware_alarm_cancel
+                0x0000000010001628       0x3c CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x0000000010001628                hardware_alarm_cancel
  .text.ph_merge_nodes
-                0x00000000100021b0       0x68 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x0000000010001664       0x68 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/common/pico_util/pheap.c.obj
  .text.ph_post_alloc_init
-                0x0000000010002218       0x3c CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/common/pico_util/pheap.c.obj
-                0x0000000010002218                ph_post_alloc_init
+                0x00000000100016cc       0x3c CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x00000000100016cc                ph_post_alloc_init
  .text.ph_merge_two_pass
-                0x0000000010002254       0x90 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/common/pico_util/pheap.c.obj
-                0x0000000010002254                ph_merge_two_pass
+                0x0000000010001708       0x90 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x0000000010001708                ph_merge_two_pass
  .text.ph_remove_any_head
-                0x00000000100022e4      0x100 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x0000000010001798      0x100 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/common/pico_util/pheap.c.obj
  .text.ph_remove_head
-                0x00000000100023e4      0x104 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/common/pico_util/pheap.c.obj
-                0x00000000100023e4                ph_remove_head
+                0x0000000010001898      0x104 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x0000000010001898                ph_remove_head
  .text.ph_remove_and_free_node
-                0x00000000100024e8       0x7c CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/common/pico_util/pheap.c.obj
-                0x00000000100024e8                ph_remove_and_free_node
+                0x000000001000199c       0x7c CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x000000001000199c                ph_remove_and_free_node
  .text.clocks_init
-                0x0000000010002564      0x2d0 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
-                0x0000000010002564                clocks_init
+                0x0000000010001a18      0x2d0 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+                0x0000000010001a18                clocks_init
  .text.clock_get_hz
-                0x0000000010002834        0xc CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
-                0x0000000010002834                clock_get_hz
+                0x0000000010001ce8        0xc CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+                0x0000000010001ce8                clock_get_hz
  .text.pll_init
-                0x0000000010002840       0xa0 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
-                0x0000000010002840                pll_init
+                0x0000000010001cf4       0xa0 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+                0x0000000010001cf4                pll_init
  .text.watchdog_start_tick
-                0x00000000100028e0       0x10 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
-                0x00000000100028e0                watchdog_start_tick
+                0x0000000010001d94       0x10 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+                0x0000000010001d94                watchdog_start_tick
  .text.watchdog_reboot
-                0x00000000100028f0       0x98 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
-                0x00000000100028f0                watchdog_reboot
+                0x0000000010001da4       0x98 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+                0x0000000010001da4                watchdog_reboot
  .text.xosc_init
-                0x0000000010002988       0x28 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
-                0x0000000010002988                xosc_init
+                0x0000000010001e3c       0x28 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+                0x0000000010001e3c                xosc_init
  .text.runtime_init
-                0x00000000100029b0       0xf0 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-                0x00000000100029b0                runtime_init
- .text._exit    0x0000000010002aa0        0x4 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-                0x0000000010002aa0                _exit
- .text.exit     0x0000000010002aa4        0x8 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-                0x0000000010002aa4                exit
- .text.panic    0x0000000010002aac       0x30 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-                0x0000000010002aac                panic
+                0x0000000010001e64       0xf0 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x0000000010001e64                runtime_init
+ .text._exit    0x0000000010001f54        0x4 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x0000000010001f54                _exit
+ .text.exit     0x0000000010001f58        0x8 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x0000000010001f58                exit
+ .text.panic    0x0000000010001f60       0x30 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x0000000010001f60                panic
  .text.hard_assertion_failure
-                0x0000000010002adc        0xc CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-                0x0000000010002adc                hard_assertion_failure
+                0x0000000010001f90        0xc CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x0000000010001f90                hard_assertion_failure
  .text._out_null
-                0x0000000010002ae8        0x4 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x0000000010001f9c        0x4 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text._out_rev
-                0x0000000010002aec       0x9c CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x0000000010001fa0       0x9c CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text._ntoa_format
-                0x0000000010002b88      0x1cc CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x000000001000203c      0x1cc CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text._out_char
-                0x0000000010002d54       0x10 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x0000000010002208       0x10 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text._out_fct
-                0x0000000010002d64       0x10 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- .text._etoa    0x0000000010002d74      0x44c CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- .text._ftoa    0x00000000100031c0      0x398 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x0000000010002218       0x10 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ .text._etoa    0x0000000010002228      0x44c CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ .text._ftoa    0x0000000010002674      0x398 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text._vsnprintf
-                0x0000000010003558      0xb04 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x0000000010002a0c      0xb04 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text.vfctprintf
-                0x000000001000405c       0x20 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
-                0x000000001000405c                vfctprintf
+                0x0000000010003510       0x20 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x0000000010003510                vfctprintf
  .text.weak_raw_vprintf
-                0x000000001000407c       0x30 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
-                0x000000001000407c                weak_raw_vprintf
- .text          0x00000000100040ac       0x10 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+                0x0000000010003530       0x30 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x0000000010003530                weak_raw_vprintf
+ .text          0x0000000010003560       0x10 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
  .text.rom_func_lookup
-                0x00000000100040bc       0x10 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
-                0x00000000100040bc                rom_func_lookup
+                0x0000000010003570       0x10 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+                0x0000000010003570                rom_func_lookup
  .text.rom_data_lookup
-                0x00000000100040cc       0x10 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
-                0x00000000100040cc                rom_data_lookup
+                0x0000000010003580       0x10 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+                0x0000000010003580                rom_data_lookup
  .text.rom_funcs_lookup
-                0x00000000100040dc       0x44 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
-                0x00000000100040dc                rom_funcs_lookup
+                0x0000000010003590       0x44 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+                0x0000000010003590                rom_funcs_lookup
  .text.__wrap___aeabi_idiv
-                0x0000000010004120       0x50 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
-                0x0000000010004120                __wrap___aeabi_idivmod
-                0x0000000010004120                divmod_s32s32
-                0x0000000010004120                div_s32s32
-                0x0000000010004120                __wrap___aeabi_idiv
-                0x0000000010004128                divmod_s32s32_unsafe
-                0x0000000010004154                divmod_s32s32_savestate
+                0x00000000100035d4       0x50 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+                0x00000000100035d4                __wrap___aeabi_idivmod
+                0x00000000100035d4                divmod_s32s32
+                0x00000000100035d4                div_s32s32
+                0x00000000100035d4                __wrap___aeabi_idiv
+                0x00000000100035dc                divmod_s32s32_unsafe
+                0x0000000010003608                divmod_s32s32_savestate
  .text.__wrap___aeabi_uidiv
-                0x0000000010004170       0x4c CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
-                0x0000000010004170                __wrap___aeabi_uidiv
-                0x0000000010004170                __wrap___aeabi_uidivmod
-                0x0000000010004170                div_u32u32
-                0x0000000010004170                divmod_u32u32
-                0x0000000010004178                divmod_u32u32_unsafe
-                0x00000000100041a0                divmod_u32u32_savestate
+                0x0000000010003624       0x4c CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+                0x0000000010003624                __wrap___aeabi_uidiv
+                0x0000000010003624                __wrap___aeabi_uidivmod
+                0x0000000010003624                div_u32u32
+                0x0000000010003624                divmod_u32u32
+                0x000000001000362c                divmod_u32u32_unsafe
+                0x0000000010003654                divmod_u32u32_savestate
  .text.__wrap___aeabi_ldiv
-                0x00000000100041bc      0x424 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
-                0x00000000100041bc                __wrap___aeabi_ldivmod
-                0x00000000100041bc                div_s64s64
-                0x00000000100041bc                divmod_s64s64
-                0x00000000100041ec                divmod_u64u64
-                0x00000000100041ec                div_u64u64
-                0x00000000100041ec                __wrap___aeabi_uldivmod
-                0x00000000100041fc                divmod_u64u64_savestate
-                0x000000001000421c                divmod_s64s64_unsafe
-                0x00000000100042a4                divmod_u64u64_unsafe
+                0x0000000010003670      0x424 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+                0x0000000010003670                __wrap___aeabi_ldivmod
+                0x0000000010003670                div_s64s64
+                0x0000000010003670                divmod_s64s64
+                0x00000000100036a0                divmod_u64u64
+                0x00000000100036a0                div_u64u64
+                0x00000000100036a0                __wrap___aeabi_uldivmod
+                0x00000000100036b0                divmod_u64u64_savestate
+                0x00000000100036d0                divmod_s64s64_unsafe
+                0x0000000010003758                divmod_u64u64_unsafe
  .text.__wrap___aeabi_darithmetic
-                0x00000000100045e0       0x60 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x00000000100045e0                __wrap___aeabi_drsub
-                0x00000000100045e6                __wrap___aeabi_dsub
-                0x00000000100045f0                __wrap___aeabi_dadd
-                0x00000000100045fa                __wrap___aeabi_ddiv
-                0x000000001000462e                __wrap___aeabi_dmul
+                0x0000000010003a94       0x60 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x0000000010003a94                __wrap___aeabi_drsub
+                0x0000000010003a9a                __wrap___aeabi_dsub
+                0x0000000010003aa4                __wrap___aeabi_dadd
+                0x0000000010003aae                __wrap___aeabi_ddiv
+                0x0000000010003ae2                __wrap___aeabi_dmul
  .text.__wrap___aeabi_cdcmple
-                0x0000000010004640       0x6c CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x0000000010004640                __wrap___aeabi_cdrcmple
-                0x0000000010004650                __wrap___aeabi_cdcmple
-                0x0000000010004650                __wrap___aeabi_cdcmpeq
+                0x0000000010003af4       0x6c CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x0000000010003af4                __wrap___aeabi_cdrcmple
+                0x0000000010003b04                __wrap___aeabi_cdcmple
+                0x0000000010003b04                __wrap___aeabi_cdcmpeq
  .text.__wrap___aeabi_dcmplt
-                0x00000000100046ac        0xc CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x00000000100046ac                __wrap___aeabi_dcmplt
+                0x0000000010003b60        0xc CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x0000000010003b60                __wrap___aeabi_dcmplt
  .text.__wrap___aeabi_dcmple
-                0x00000000100046b8       0x10 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x00000000100046b8                __wrap___aeabi_dcmple
+                0x0000000010003b6c       0x10 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x0000000010003b6c                __wrap___aeabi_dcmple
  .text.__wrap___aeabi_dcmpge
-                0x00000000100046c8       0x10 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x00000000100046c8                __wrap___aeabi_dcmpge
+                0x0000000010003b7c       0x10 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x0000000010003b7c                __wrap___aeabi_dcmpge
  .text.__wrap___aeabi_dcmpgt
-                0x00000000100046d8        0xa CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x00000000100046d8                __wrap___aeabi_dcmpgt
+                0x0000000010003b8c        0xa CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x0000000010003b8c                __wrap___aeabi_dcmpgt
  .text.__wrap___aeabi_dcmpun
-                0x00000000100046e2       0x1c CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x00000000100046e2                __wrap___aeabi_dcmpun
- *fill*         0x00000000100046fe        0x2 
+                0x0000000010003b96       0x1c CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x0000000010003b96                __wrap___aeabi_dcmpun
+ *fill*         0x0000000010003bb2        0x2 
  .text.__wrap___aeabi_i2d
-                0x0000000010004700       0x38 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x0000000010004700                __wrap___aeabi_ui2d
-                0x0000000010004708                __wrap___aeabi_i2d
+                0x0000000010003bb4       0x38 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x0000000010003bb4                __wrap___aeabi_ui2d
+                0x0000000010003bbc                __wrap___aeabi_i2d
  .text.__wrap___aeabi_d2iz
-                0x0000000010004738       0x48 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x0000000010004738                __wrap___aeabi_d2iz
-                0x0000000010004738                double2int_z
+                0x0000000010003bec       0x48 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x0000000010003bec                __wrap___aeabi_d2iz
+                0x0000000010003bec                double2int_z
  .text.__wrap___aeabi_d2uiz
-                0x0000000010004780       0x10 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x0000000010004780                double2uint
-                0x0000000010004780                __wrap___aeabi_d2uiz
+                0x0000000010003c34       0x10 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x0000000010003c34                double2uint
+                0x0000000010003c34                __wrap___aeabi_d2uiz
  .text.missing_double_func_shim
-                0x0000000010004790        0xc CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+                0x0000000010003c44        0xc CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
  .text.__aeabi_double_init
-                0x000000001000479c       0x98 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
-                0x000000001000479c                __aeabi_double_init
+                0x0000000010003c50       0x98 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+                0x0000000010003c50                __aeabi_double_init
  .text.double_table_shim_on_use_helper
-                0x0000000010004834       0x2c CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x0000000010004834                double_table_shim_on_use_helper
+                0x0000000010003ce8       0x2c CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x0000000010003ce8                double_table_shim_on_use_helper
  .text.__aeabi_lmul
-                0x0000000010004860       0x32 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
-                0x0000000010004860                __wrap___aeabi_lmul
- *fill*         0x0000000010004892        0x2 
+                0x0000000010003d14       0x32 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+                0x0000000010003d14                __wrap___aeabi_lmul
+ *fill*         0x0000000010003d46        0x2 
  .text.missing_float_func_shim
-                0x0000000010004894        0xc CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+                0x0000000010003d48        0xc CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
  .text.__aeabi_float_init
-                0x00000000100048a0       0x5c CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
-                0x00000000100048a0                __aeabi_float_init
- .text          0x00000000100048fc       0x10 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
-                0x00000000100048fc                __aeabi_mem_init
- .text.memset   0x000000001000490c        0xc CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
-                0x000000001000490c                __wrap_memset
- .text.memcpy   0x0000000010004918        0xc CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
-                0x0000000010004918                __wrap___aeabi_memcpy
-                0x0000000010004918                __wrap_memcpy
+                0x0000000010003d54       0x5c CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+                0x0000000010003d54                __aeabi_float_init
+ .text          0x0000000010003db0       0x10 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+                0x0000000010003db0                __aeabi_mem_init
+ .text.memset   0x0000000010003dc0        0xc CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+                0x0000000010003dc0                __wrap_memset
+ .text.memcpy   0x0000000010003dcc        0xc CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+                0x0000000010003dcc                __wrap___aeabi_memcpy
+                0x0000000010003dcc                __wrap_memcpy
  .text.stdio_out_chars_no_crlf
-                0x0000000010004924       0x10 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x0000000010003dd8       0x10 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .text.stdio_out_chars_crlf
-                0x0000000010004934       0xb4 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x0000000010003de8       0xb4 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .text.stdio_buffered_printer
-                0x00000000100049e8       0x64 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x0000000010003e9c       0x64 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .text.stdio_put_string.isra.0
-                0x0000000010004a4c       0xfc CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x0000000010003f00       0xfc CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .text.__wrap_putchar
-                0x0000000010004b48       0x98 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x0000000010004b48                __wrap_putchar
+                0x0000000010003ffc       0x98 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x0000000010003ffc                __wrap_putchar
  .text.__wrap_puts
-                0x0000000010004be0       0x3c CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x0000000010004be0                __wrap_puts
+                0x0000000010004094       0x3c CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x0000000010004094                __wrap_puts
  .text.stdio_set_driver_enabled
-                0x0000000010004c1c       0x30 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x0000000010004c1c                stdio_set_driver_enabled
+                0x00000000100040d0       0x30 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x00000000100040d0                stdio_set_driver_enabled
  .text.__wrap_vprintf
-                0x0000000010004c4c       0xd8 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x0000000010004c4c                __wrap_vprintf
+                0x0000000010004100       0xd8 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x0000000010004100                __wrap_vprintf
  .text.__wrap_printf
-                0x0000000010004d24       0x18 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x0000000010004d24                __wrap_printf
+                0x00000000100041d8       0x18 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x00000000100041d8                __wrap_printf
  .text.stdio_init_all
-                0x0000000010004d3c        0x8 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x0000000010004d3c                stdio_init_all
+                0x00000000100041f0        0x8 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x00000000100041f0                stdio_init_all
  .text.resetd_init
-                0x0000000010004d44        0x4 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+                0x00000000100041f8        0x4 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
  .text.resetd_reset
-                0x0000000010004d48        0xc CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+                0x00000000100041fc        0xc CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
  .text.resetd_open
-                0x0000000010004d54       0x28 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+                0x0000000010004208       0x28 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
  .text.resetd_xfer_cb
-                0x0000000010004d7c        0x4 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+                0x0000000010004230        0x4 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
  .text.resetd_control_xfer_cb
-                0x0000000010004d80       0x64 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+                0x0000000010004234       0x64 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
  .text.usbd_app_driver_get_cb
-                0x0000000010004de4        0xc CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
-                0x0000000010004de4                usbd_app_driver_get_cb
+                0x0000000010004298        0xc CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+                0x0000000010004298                usbd_app_driver_get_cb
  .text.tud_cdc_line_coding_cb
-                0x0000000010004df0       0x34 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
-                0x0000000010004df0                tud_cdc_line_coding_cb
+                0x00000000100042a4       0x34 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+                0x00000000100042a4                tud_cdc_line_coding_cb
  .text.stdio_usb_set_chars_available_callback
-                0x0000000010004e24       0x14 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
-                0x0000000010004e24                stdio_usb_set_chars_available_callback
- .text.usb_irq  0x0000000010004e38       0x10 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x00000000100042d8       0x14 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x00000000100042d8                stdio_usb_set_chars_available_callback
+ .text.usb_irq  0x00000000100042ec       0x10 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
  .text.timer_task
-                0x0000000010004e48       0x54 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x00000000100042fc       0x54 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
  .text.stdio_usb_in_chars
-                0x0000000010004e9c       0x90 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
-                0x0000000010004e9c                stdio_usb_in_chars
+                0x0000000010004350       0x90 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x0000000010004350                stdio_usb_in_chars
  .text.stdio_usb_out_chars
-                0x0000000010004f2c      0x100 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x00000000100043e0      0x100 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
  .text.low_priority_worker_irq
-                0x000000001000502c       0xa8 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x00000000100044e0       0xa8 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
  .text.tud_cdc_rx_cb
-                0x00000000100050d4       0x20 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
-                0x00000000100050d4                tud_cdc_rx_cb
+                0x0000000010004588       0x20 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x0000000010004588                tud_cdc_rx_cb
  .text.stdio_usb_init
-                0x00000000100050f4       0xdc CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
-                0x00000000100050f4                stdio_usb_init
+                0x00000000100045a8       0xdc CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x00000000100045a8                stdio_usb_init
  .text.tud_descriptor_device_cb
-                0x00000000100051d0        0x8 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
-                0x00000000100051d0                tud_descriptor_device_cb
+                0x0000000010004684        0x8 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+                0x0000000010004684                tud_descriptor_device_cb
  .text.tud_descriptor_configuration_cb
-                0x00000000100051d8        0x8 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
-                0x00000000100051d8                tud_descriptor_configuration_cb
+                0x000000001000468c        0x8 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+                0x000000001000468c                tud_descriptor_configuration_cb
  .text.tud_descriptor_string_cb
-                0x00000000100051e0       0x74 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
-                0x00000000100051e0                tud_descriptor_string_cb
+                0x0000000010004694       0x74 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+                0x0000000010004694                tud_descriptor_string_cb
  .text.startup._retrieve_unique_id_on_boot
-                0x0000000010005254       0x10 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
+                0x0000000010004708       0x10 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
  .text.pico_get_unique_board_id_string
-                0x0000000010005264      0x1a8 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
-                0x0000000010005264                pico_get_unique_board_id_string
+                0x0000000010004718      0x1a8 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
+                0x0000000010004718                pico_get_unique_board_id_string
  .text.flash_get_unique_id
-                0x000000001000540c       0x40 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
-                0x000000001000540c                flash_get_unique_id
+                0x00000000100048c0       0x40 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
+                0x00000000100048c0                flash_get_unique_id
  .text.dcd_int_enable
-                0x000000001000544c        0xc CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-                0x000000001000544c                dcd_int_enable
+                0x0000000010004900        0xc CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x0000000010004900                dcd_int_enable
  .text.dcd_set_address
-                0x0000000010005458       0x14 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-                0x0000000010005458                dcd_set_address
+                0x000000001000490c       0x14 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x000000001000490c                dcd_set_address
  .text.dcd_connect
-                0x000000001000546c       0x10 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-                0x000000001000546c                dcd_connect
+                0x0000000010004920       0x10 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x0000000010004920                dcd_connect
  .text.dcd_init
-                0x000000001000547c       0x98 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-                0x000000001000547c                dcd_init
+                0x0000000010004930       0x98 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x0000000010004930                dcd_init
  .text.dcd_edpt0_status_complete
-                0x0000000010005514       0x1c CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-                0x0000000010005514                dcd_edpt0_status_complete
+                0x00000000100049c8       0x1c CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x00000000100049c8                dcd_edpt0_status_complete
  .text.dcd_edpt_open
-                0x0000000010005530      0x108 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-                0x0000000010005530                dcd_edpt_open
+                0x00000000100049e4      0x108 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x00000000100049e4                dcd_edpt_open
  .text.dcd_edpt_close_all
-                0x0000000010005638        0x8 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-                0x0000000010005638                dcd_edpt_close_all
+                0x0000000010004aec        0x8 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x0000000010004aec                dcd_edpt_close_all
  .text.dcd_edpt_xfer
-                0x0000000010005640       0x24 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-                0x0000000010005640                dcd_edpt_xfer
+                0x0000000010004af4       0x24 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x0000000010004af4                dcd_edpt_xfer
  .text.dcd_edpt_stall
-                0x0000000010005664       0x38 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-                0x0000000010005664                dcd_edpt_stall
+                0x0000000010004b18       0x38 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x0000000010004b18                dcd_edpt_stall
  .text.dcd_edpt_clear_stall
-                0x000000001000569c       0x30 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-                0x000000001000569c                dcd_edpt_clear_stall
+                0x0000000010004b50       0x30 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x0000000010004b50                dcd_edpt_clear_stall
  .text.rp2040_usb_init
-                0x00000000100056cc       0x4c CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
-                0x00000000100056cc                rp2040_usb_init
+                0x0000000010004b80       0x4c CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+                0x0000000010004b80                rp2040_usb_init
  .text.hw_endpoint_xfer_start
-                0x0000000010005718       0x50 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
-                0x0000000010005718                hw_endpoint_xfer_start
+                0x0000000010004bcc       0x50 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+                0x0000000010004bcc                hw_endpoint_xfer_start
  .text.tud_mounted
-                0x0000000010005768       0x10 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x0000000010005768                tud_mounted
+                0x0000000010004c1c       0x10 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x0000000010004c1c                tud_mounted
  .text.tud_suspended
-                0x0000000010005778       0x10 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x0000000010005778                tud_suspended
+                0x0000000010004c2c       0x10 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x0000000010004c2c                tud_suspended
  .text.tud_inited
-                0x0000000010005788       0x14 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x0000000010005788                tud_inited
+                0x0000000010004c3c       0x14 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x0000000010004c3c                tud_inited
  .text.tud_init
-                0x000000001000579c       0xe4 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x000000001000579c                tud_init
+                0x0000000010004c50       0xe4 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x0000000010004c50                tud_init
  .text.tud_task_ext
-                0x0000000010005880      0x854 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x0000000010005880                tud_task_ext
+                0x0000000010004d34      0x854 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x0000000010004d34                tud_task_ext
  .text.usbd_open_edpt_pair
-                0x00000000100060d4       0x9c CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x00000000100060d4                usbd_open_edpt_pair
+                0x0000000010005588       0x9c CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x0000000010005588                usbd_open_edpt_pair
  .text.usbd_defer_func
-                0x0000000010006170       0x48 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x0000000010006170                usbd_defer_func
+                0x0000000010005624       0x48 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x0000000010005624                usbd_defer_func
  .text.usbd_edpt_open
-                0x00000000100061b8       0x34 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x00000000100061b8                usbd_edpt_open
+                0x000000001000566c       0x34 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x000000001000566c                usbd_edpt_open
  .text.usbd_edpt_claim
-                0x00000000100061ec       0x28 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x00000000100061ec                usbd_edpt_claim
+                0x00000000100056a0       0x28 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x00000000100056a0                usbd_edpt_claim
  .text.usbd_edpt_release
-                0x0000000010006214       0x28 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x0000000010006214                usbd_edpt_release
+                0x00000000100056c8       0x28 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x00000000100056c8                usbd_edpt_release
  .text.usbd_edpt_xfer
-                0x000000001000623c       0x4c CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x000000001000623c                usbd_edpt_xfer
+                0x00000000100056f0       0x4c CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x00000000100056f0                usbd_edpt_xfer
  .text.tud_control_status
-                0x0000000010006288       0x30 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
-                0x0000000010006288                tud_control_status
+                0x000000001000573c       0x30 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+                0x000000001000573c                tud_control_status
  .text.tud_control_xfer
-                0x00000000100062b8       0xbc CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
-                0x00000000100062b8                tud_control_xfer
+                0x000000001000576c       0xbc CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+                0x000000001000576c                tud_control_xfer
  .text.usbd_control_reset
-                0x0000000010006374       0x14 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
-                0x0000000010006374                usbd_control_reset
+                0x0000000010005828       0x14 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+                0x0000000010005828                usbd_control_reset
  .text.usbd_control_set_complete_callback
-                0x0000000010006388        0xc CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
-                0x0000000010006388                usbd_control_set_complete_callback
+                0x000000001000583c        0xc CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+                0x000000001000583c                usbd_control_set_complete_callback
  .text.usbd_control_set_request
-                0x0000000010006394       0x1c CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
-                0x0000000010006394                usbd_control_set_request
+                0x0000000010005848       0x1c CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+                0x0000000010005848                usbd_control_set_request
  .text.usbd_control_xfer_cb
-                0x00000000100063b0       0xfc CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
-                0x00000000100063b0                usbd_control_xfer_cb
+                0x0000000010005864       0xfc CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+                0x0000000010005864                usbd_control_xfer_cb
  .text.tud_cdc_n_connected
-                0x00000000100064ac       0x30 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x00000000100064ac                tud_cdc_n_connected
+                0x0000000010005960       0x30 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x0000000010005960                tud_cdc_n_connected
  .text.tud_cdc_n_available
-                0x00000000100064dc       0x18 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x00000000100064dc                tud_cdc_n_available
+                0x0000000010005990       0x18 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x0000000010005990                tud_cdc_n_available
  .text.tud_cdc_n_read
-                0x00000000100064f4       0x70 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x00000000100064f4                tud_cdc_n_read
+                0x00000000100059a8       0x70 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x00000000100059a8                tud_cdc_n_read
  .text.tud_cdc_n_write_flush
-                0x0000000010006564       0x78 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x0000000010006564                tud_cdc_n_write_flush
+                0x0000000010005a18       0x78 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x0000000010005a18                tud_cdc_n_write_flush
  .text.tud_cdc_n_write
-                0x00000000100065dc       0x34 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x00000000100065dc                tud_cdc_n_write
+                0x0000000010005a90       0x34 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x0000000010005a90                tud_cdc_n_write
  .text.tud_cdc_n_write_available
-                0x0000000010006610       0x18 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x0000000010006610                tud_cdc_n_write_available
+                0x0000000010005ac4       0x18 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x0000000010005ac4                tud_cdc_n_write_available
  .text.cdcd_init
-                0x0000000010006628       0x7c CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x0000000010006628                cdcd_init
+                0x0000000010005adc       0x7c CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x0000000010005adc                cdcd_init
  .text.cdcd_reset
-                0x00000000100066a4       0x2c CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x00000000100066a4                cdcd_reset
+                0x0000000010005b58       0x2c CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x0000000010005b58                cdcd_reset
  .text.cdcd_open
-                0x00000000100066d0       0xe8 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x00000000100066d0                cdcd_open
+                0x0000000010005b84       0xe8 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x0000000010005b84                cdcd_open
  .text.cdcd_control_xfer_cb
-                0x00000000100067b8       0xe4 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x00000000100067b8                cdcd_control_xfer_cb
+                0x0000000010005c6c       0xe4 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x0000000010005c6c                cdcd_control_xfer_cb
  .text.cdcd_xfer_cb
-                0x000000001000689c      0x148 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x000000001000689c                cdcd_xfer_cb
+                0x0000000010005d50      0x148 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x0000000010005d50                cdcd_xfer_cb
  .text.tusb_init
-                0x00000000100069e4        0xc CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
-                0x00000000100069e4                tusb_init
+                0x0000000010005e98        0xc CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
+                0x0000000010005e98                tusb_init
  .text.tusb_inited
-                0x00000000100069f0        0x8 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
-                0x00000000100069f0                tusb_inited
+                0x0000000010005ea4        0x8 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
+                0x0000000010005ea4                tusb_inited
  .text.tu_edpt_claim
-                0x00000000100069f8       0x50 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
-                0x00000000100069f8                tu_edpt_claim
+                0x0000000010005eac       0x50 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
+                0x0000000010005eac                tu_edpt_claim
  .text.tu_edpt_release
-                0x0000000010006a48       0x38 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
-                0x0000000010006a48                tu_edpt_release
+                0x0000000010005efc       0x38 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
+                0x0000000010005efc                tu_edpt_release
  .text.tu_edpt_validate
-                0x0000000010006a80       0x78 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
-                0x0000000010006a80                tu_edpt_validate
+                0x0000000010005f34       0x78 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
+                0x0000000010005f34                tu_edpt_validate
  .text.tu_edpt_bind_driver
-                0x0000000010006af8       0x34 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
-                0x0000000010006af8                tu_edpt_bind_driver
+                0x0000000010005fac       0x34 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
+                0x0000000010005fac                tu_edpt_bind_driver
  .text.tu_fifo_config
-                0x0000000010006b2c       0x70 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
-                0x0000000010006b2c                tu_fifo_config
+                0x0000000010005fe0       0x70 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x0000000010005fe0                tu_fifo_config
  .text.tu_fifo_count
-                0x0000000010006b9c       0x2c CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
-                0x0000000010006b9c                tu_fifo_count
+                0x0000000010006050       0x2c CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x0000000010006050                tu_fifo_count
  .text.tu_fifo_empty
-                0x0000000010006bc8       0x10 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
-                0x0000000010006bc8                tu_fifo_empty
+                0x000000001000607c       0x10 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x000000001000607c                tu_fifo_empty
  .text.tu_fifo_remaining
-                0x0000000010006bd8       0x2c CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
-                0x0000000010006bd8                tu_fifo_remaining
+                0x000000001000608c       0x2c CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x000000001000608c                tu_fifo_remaining
  .text.tu_fifo_read
-                0x0000000010006c04       0xa0 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
-                0x0000000010006c04                tu_fifo_read
+                0x00000000100060b8       0xa0 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x00000000100060b8                tu_fifo_read
  .text.tu_fifo_read_n
-                0x0000000010006ca4       0xec CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
-                0x0000000010006ca4                tu_fifo_read_n
+                0x0000000010006158       0xec CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x0000000010006158                tu_fifo_read_n
  .text.tu_fifo_write
-                0x0000000010006d90       0x88 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
-                0x0000000010006d90                tu_fifo_write
+                0x0000000010006244       0x88 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x0000000010006244                tu_fifo_write
  .text.tu_fifo_write_n
-                0x0000000010006e18      0x168 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
-                0x0000000010006e18                tu_fifo_write_n
+                0x00000000100062cc      0x168 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x00000000100062cc                tu_fifo_write_n
  .text.tu_fifo_clear
-                0x0000000010006f80       0x40 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
-                0x0000000010006f80                tu_fifo_clear
+                0x0000000010006434       0x40 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x0000000010006434                tu_fifo_clear
  .text.tu_fifo_set_overwritable
-                0x0000000010006fc0       0x48 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
-                0x0000000010006fc0                tu_fifo_set_overwritable
+                0x0000000010006474       0x48 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x0000000010006474                tu_fifo_set_overwritable
  .text.spi_init
-                0x0000000010007008      0x138 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj
-                0x0000000010007008                spi_init
- .text.strlen   0x0000000010007140       0x5c /opt/homebrew/Cellar/arm-none-eabi-gcc/10-2020-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-strlen-stub.o)
-                0x0000000010007140                strlen
+                0x00000000100064bc      0x138 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj
+                0x00000000100064bc                spi_init
+ .text.strlen   0x00000000100065f4       0x5c /opt/homebrew/Cellar/arm-none-eabi-gcc/10-2020-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-strlen-stub.o)
+                0x00000000100065f4                strlen
  *(.fini)
- .fini          0x000000001000719c        0x4 /opt/homebrew/Cellar/arm-none-eabi-gcc/10-2020-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v6-m/nofp/crti.o
-                0x000000001000719c                _fini
- .fini.__stub   0x00000000100071a0       0xf0 linker stubs
+ .fini          0x0000000010006650        0x4 /opt/homebrew/Cellar/arm-none-eabi-gcc/10-2020-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v6-m/nofp/crti.o
+                0x0000000010006650                _fini
+ *fill*         0x0000000010006654        0x4 
+ .fini.__stub   0x0000000010006658       0xf0 linker stubs
  *crtbegin.o(.ctors)
  *crtbegin?.o(.ctors)
  *(EXCLUDE_FILE(*crtend.o *crtend?.o) .ctors)
@@ -2097,140 +2071,141 @@ LOAD /opt/homebrew/Cellar/arm-none-eabi-gcc/10-2020-q4-major/gcc/bin/../lib/gcc/
  *(SORT_BY_NAME(.dtors.*))
  *(.dtors)
  *(.eh_frame*)
- .eh_frame      0x0000000010007290        0x0 /opt/homebrew/Cellar/arm-none-eabi-gcc/10-2020-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v6-m/nofp/crtbegin.o
-                0x0000000010007290                . = ALIGN (0x4)
+ .eh_frame      0x0000000010006748        0x0 /opt/homebrew/Cellar/arm-none-eabi-gcc/10-2020-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v6-m/nofp/crtbegin.o
+                0x0000000010006748                . = ALIGN (0x4)
 
-.glue_7         0x0000000010007290        0x0
- .glue_7        0x0000000010007290        0x0 linker stubs
+.glue_7         0x0000000010006748        0x0
+ .glue_7        0x0000000010006748        0x0 linker stubs
 
-.glue_7t        0x0000000010007290        0x0
- .glue_7t       0x0000000010007290        0x0 linker stubs
+.glue_7t        0x0000000010006748        0x0
+ .glue_7t       0x0000000010006748        0x0 linker stubs
 
-.vfp11_veneer   0x0000000010007290        0x0
- .vfp11_veneer  0x0000000010007290        0x0 linker stubs
+.vfp11_veneer   0x0000000010006748        0x0
+ .vfp11_veneer  0x0000000010006748        0x0 linker stubs
 
-.v4_bx          0x0000000010007290        0x0
- .v4_bx         0x0000000010007290        0x0 linker stubs
+.v4_bx          0x0000000010006748        0x0
+ .v4_bx         0x0000000010006748        0x0 linker stubs
 
-.iplt           0x0000000010007290        0x0
- .iplt          0x0000000010007290        0x0 /opt/homebrew/Cellar/arm-none-eabi-gcc/10-2020-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v6-m/nofp/crtbegin.o
+.iplt           0x0000000010006748        0x0
+ .iplt          0x0000000010006748        0x0 /opt/homebrew/Cellar/arm-none-eabi-gcc/10-2020-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v6-m/nofp/crtbegin.o
 
-.rodata         0x0000000010007290      0x600
+.rodata         0x0000000010006748      0x5e8
  *(EXCLUDE_FILE(*libm.a: *libc.a:*lib_a-mem*.o *libgcc.a:) .rodata*)
- .rodata.printPaddedInt16b.str1.4
-                0x0000000010007290        0x3 CMakeFiles/P2.dir/P2.c.obj
- *fill*         0x0000000010007293        0x1 
- .rodata.printRawAGMT.str1.4
-                0x0000000010007294       0x37 CMakeFiles/P2.dir/P2.c.obj
- *fill*         0x00000000100072cb        0x1 
  .rodata.main.str1.4
-                0x00000000100072cc       0x86 CMakeFiles/P2.dir/P2.c.obj
- *fill*         0x0000000010007352        0x2 
- .rodata.mySerif
-                0x0000000010007354        0xc CMakeFiles/P2.dir/P2.c.obj
-                0x0000000010007354                mySerif
+                0x0000000010006748       0xa0 CMakeFiles/P2.dir/P2.c.obj
+ .rodata.str1.4
+                0x00000000100067e8        0x7 CMakeFiles/P2.dir/P2.c.obj
+ *fill*         0x00000000100067ef        0x1 
+ .rodata.__bi_100.1
+                0x00000000100067f0        0xc CMakeFiles/P2.dir/P2.c.obj
+ .rodata.__bi_93.0
+                0x00000000100067fc        0x8 CMakeFiles/P2.dir/P2.c.obj
  .rodata.spin_lock_claim_unused.str1.4
-                0x0000000010007360       0x1b CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
- *fill*         0x000000001000737b        0x1 
+                0x0000000010006804       0x1b CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+ *fill*         0x000000001000681f        0x1 
  .rodata.user_irq_claim_unused.str1.4
-                0x000000001000737c       0x1b CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- *fill*         0x0000000010007397        0x1 
+                0x0000000010006820       0x1b CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ *fill*         0x000000001000683b        0x1 
  .rodata.hardware_alarm_claim.str1.4
-                0x0000000010007398       0x22 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
- *fill*         0x00000000100073ba        0x2 
+                0x000000001000683c       0x22 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+ *fill*         0x000000001000685e        0x2 
  .rodata.panic.str1.4
-                0x00000000100073bc       0x12 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
- *fill*         0x00000000100073ce        0x2 
+                0x0000000010006860       0x10 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                                         0x12 (size before relaxing)
  .rodata.hard_assertion_failure.str1.4
-                0x00000000100073d0        0xc CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x0000000010006870        0xc CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
  .rodata._ftoa.str1.4
-                0x00000000100073dc       0x15 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- *fill*         0x00000000100073f1        0x3 
+                0x000000001000687c       0x15 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ *fill*         0x0000000010006891        0x3 
  .rodata._vsnprintf
-                0x00000000100073f4      0x1e0 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- *fill*         0x00000000100075d4        0x4 
+                0x0000000010006894      0x1e0 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ *fill*         0x0000000010006a74        0x4 
  .rodata.pow10.0
-                0x00000000100075d8       0x50 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x0000000010006a78       0x50 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .rodata.missing_double_func_shim.str1.4
-                0x0000000010007628       0x18 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+                0x0000000010006ac8       0x18 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
  .rodata.missing_float_func_shim.str1.4
-                0x0000000010007640       0x18 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+                0x0000000010006ae0       0x18 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
                                           0x1 (size before relaxing)
  .rodata.str1.4
-                0x0000000010007640       0x38 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x0000000010006ae0       0x38 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .rodata.__bi_44
-                0x0000000010007678        0xc CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x0000000010006b18        0xc CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .rodata.__bi_75
-                0x0000000010007684        0xc CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x0000000010006b24        0xc CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .rodata.__bi_81
-                0x0000000010007690        0xc CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x0000000010006b30        0xc CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .rodata.crlf_str.0
-                0x000000001000769c        0x2 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
- *fill*         0x000000001000769e        0x2 
+                0x0000000010006b3c        0x2 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+ *fill*         0x0000000010006b3e        0x2 
  .rodata._resetd_driver
-                0x00000000100076a0       0x18 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+                0x0000000010006b40       0x18 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
  .rodata.str1.4
-                0x00000000100076b8       0x13 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
- *fill*         0x00000000100076cb        0x1 
+                0x0000000010006b58       0x13 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+ *fill*         0x0000000010006b6b        0x1 
  .rodata.__bi_182.0
-                0x00000000100076cc        0xc CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x0000000010006b6c        0xc CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
  .rodata.str1.4
-                0x00000000100076d8       0x2a CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
- *fill*         0x0000000010007702        0x2 
+                0x0000000010006b78       0x2a CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+ *fill*         0x0000000010006ba2        0x2 
  .rodata.usbd_desc_cfg
-                0x0000000010007704       0x54 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+                0x0000000010006ba4       0x54 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
  .rodata.usbd_desc_device
-                0x0000000010007758       0x12 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
- *fill*         0x000000001000776a        0x2 
+                0x0000000010006bf8       0x12 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+ *fill*         0x0000000010006c0a        0x2 
  .rodata.usbd_desc_str
-                0x000000001000776c       0x18 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+                0x0000000010006c0c       0x18 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
  .rodata.str1.4
-                0x0000000010007784       0x14 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x0000000010006c24       0x14 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
  .rodata.str1.4
-                0x0000000010007798       0x53 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
- *fill*         0x00000000100077eb        0x1 
+                0x0000000010006c38       0x53 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+ *fill*         0x0000000010006c8b        0x1 
  .rodata.tud_task_ext
-                0x00000000100077ec       0x8c CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x0000000010006c8c       0x8c CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
  .rodata._usbd_driver
-                0x0000000010007878       0x18 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x0000000010007890                . = ALIGN (0x4)
+                0x0000000010006d18       0x18 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x0000000010006d30                . = ALIGN (0x4)
  *(SORT_BY_ALIGNMENT(SORT_BY_NAME(.flashdata*)))
-                0x0000000010007890                . = ALIGN (0x4)
+                0x0000000010006d30                . = ALIGN (0x4)
 
 .ARM.extab
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x0000000010007890                __exidx_start = .
+                0x0000000010006d30                __exidx_start = .
 
 .ARM.exidx
  *(.ARM.exidx* .gnu.linkonce.armexidx.*)
-                0x0000000010007890                __exidx_end = .
-                0x0000000010007890                . = ALIGN (0x4)
-                0x0000000010007890                __binary_info_start = .
+                0x0000000010006d30                __exidx_end = .
+                0x0000000010006d30                . = ALIGN (0x4)
+                0x0000000010006d30                __binary_info_start = .
 
-.binary_info    0x0000000010007890       0x20
+.binary_info    0x0000000010006d30       0x28
  *(.binary_info.keep.*)
+ .binary_info.keep.__bi_ptr100
+                0x0000000010006d30        0x4 CMakeFiles/P2.dir/P2.c.obj
+ .binary_info.keep.__bi_ptr93
+                0x0000000010006d34        0x4 CMakeFiles/P2.dir/P2.c.obj
  .binary_info.keep.__bi_ptr22
-                0x0000000010007890        0x4 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x0000000010006d38        0x4 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr30
-                0x0000000010007894        0x4 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x0000000010006d3c        0x4 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr38
-                0x0000000010007898        0x4 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x0000000010006d40        0x4 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr44
-                0x000000001000789c        0x4 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x0000000010006d44        0x4 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr50
-                0x00000000100078a0        0x4 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x0000000010006d48        0x4 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr75
-                0x00000000100078a4        0x4 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x0000000010006d4c        0x4 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr81
-                0x00000000100078a8        0x4 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x0000000010006d50        0x4 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  *(.binary_info.*)
  .binary_info.__bi_ptr182
-                0x00000000100078ac        0x4 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
-                0x00000000100078b0                __binary_info_end = .
+                0x0000000010006d54        0x4 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x0000000010006d58                __binary_info_end = .
 
-.rel.dyn        0x00000000100078b0        0x0
- .rel.iplt      0x00000000100078b0        0x0 /opt/homebrew/Cellar/arm-none-eabi-gcc/10-2020-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v6-m/nofp/crtbegin.o
-                0x00000000100078b0                . = ALIGN (0x4)
+.rel.dyn        0x0000000010006d58        0x0
+ .rel.iplt      0x0000000010006d58        0x0 /opt/homebrew/Cellar/arm-none-eabi-gcc/10-2020-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v6-m/nofp/crtbegin.o
+                0x0000000010006d58                . = ALIGN (0x4)
 
 .ram_vector_table
                 0x0000000020000000       0xc0
@@ -2239,7 +2214,7 @@ LOAD /opt/homebrew/Cellar/arm-none-eabi-gcc/10-2020-q4-major/gcc/bin/../lib/gcc/
                 0x0000000020000000       0xc0 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
                 0x0000000020000000                ram_vector_table
 
-.data           0x00000000200000c0      0xf10 load address 0x00000000100078b0
+.data           0x00000000200000c0      0xf10 load address 0x0000000010006d58
                 0x00000000200000c0                __data_start__ = .
  *(vtable)
  *(.time_critical*)
@@ -2379,31 +2354,31 @@ LOAD /opt/homebrew/Cellar/arm-none-eabi-gcc/10-2020-q4-major/gcc/bin/../lib/gcc/
  *(.jcr)
                 0x0000000020000fd0                . = ALIGN (0x4)
                 0x0000000020000fd0                __data_end__ = .
-                0x00000000100078b0                __etext = LOADADDR (.data)
+                0x0000000010006d58                __etext = LOADADDR (.data)
 
-.igot.plt       0x0000000020000fd0        0x0 load address 0x00000000100087c0
+.igot.plt       0x0000000020000fd0        0x0 load address 0x0000000010007c68
  .igot.plt      0x0000000020000fd0        0x0 /opt/homebrew/Cellar/arm-none-eabi-gcc/10-2020-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v6-m/nofp/crtbegin.o
 
 .uninitialized_data
-                0x0000000020000fd0        0x0 load address 0x00000000100087c0
+                0x0000000020000fd0        0x0 load address 0x0000000010007c68
                 0x0000000020000fd0                . = ALIGN (0x4)
  *(.uninitialized_data*)
 
-.scratch_x      0x0000000020040000        0x0 load address 0x00000000100087c0
+.scratch_x      0x0000000020040000        0x0 load address 0x0000000010007c68
                 0x0000000020040000                __scratch_x_start__ = .
  *(.scratch_x.*)
                 0x0000000020040000                . = ALIGN (0x4)
                 0x0000000020040000                __scratch_x_end__ = .
-                0x00000000100087c0                __scratch_x_source__ = LOADADDR (.scratch_x)
+                0x0000000010007c68                __scratch_x_source__ = LOADADDR (.scratch_x)
 
-.scratch_y      0x0000000020041000        0x0 load address 0x00000000100087c0
+.scratch_y      0x0000000020041000        0x0 load address 0x0000000010007c68
                 0x0000000020041000                __scratch_y_start__ = .
  *(.scratch_y.*)
                 0x0000000020041000                . = ALIGN (0x4)
                 0x0000000020041000                __scratch_y_end__ = .
-                0x00000000100087c0                __scratch_y_source__ = LOADADDR (.scratch_y)
+                0x0000000010007c68                __scratch_y_source__ = LOADADDR (.scratch_y)
 
-.bss            0x0000000020000fd0      0xdb4
+.bss            0x0000000020000fd0      0xd88
                 0x0000000020000fd0                . = ALIGN (0x4)
                 0x0000000020000fd0                __bss_start__ = .
  *(SORT_BY_ALIGNMENT(SORT_BY_NAME(.bss*)))
@@ -2461,57 +2436,55 @@ LOAD /opt/homebrew/Cellar/arm-none-eabi-gcc/10-2020-q4-major/gcc/bin/../lib/gcc/
                 0x0000000020001bf0        0x4 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .bss.load_value
                 0x0000000020001bf4        0x4 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
- .bss.myICM     0x0000000020001bf8       0x2c CMakeFiles/P2.dir/P2.c.obj
-                0x0000000020001bf8                myICM
  .bss.next_buffer_ptr
-                0x0000000020001c24        0x4 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x0000000020001bf8        0x4 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
  .bss.one_shot_timer_crit_sec
-                0x0000000020001c28        0x8 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
- .bss.pools     0x0000000020001c30       0x10 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x0000000020001bfc        0x8 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+ .bss.pools     0x0000000020001c04       0x10 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/common/pico_time/time.c.obj
  .bss.retrieved_id
-                0x0000000020001c40        0x8 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
+                0x0000000020001c14        0x8 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
  .bss.sf_clz_func
-                0x0000000020001c48        0x4 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
-                0x0000000020001c48                sf_clz_func
- .bss.sf_table  0x0000000020001c4c      0x100 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
-                0x0000000020001c4c                sf_table
+                0x0000000020001c1c        0x4 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+                0x0000000020001c1c                sf_clz_func
+ .bss.sf_table  0x0000000020001c20      0x100 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+                0x0000000020001c20                sf_table
  .bss.sleep_notifier
-                0x0000000020001d4c        0x4 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x0000000020001d20        0x4 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/common/pico_time/time.c.obj
  .bss.stdio_usb_mutex
-                0x0000000020001d50        0x8 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x0000000020001d24        0x8 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
  .bss.target_hi
-                0x0000000020001d58       0x10 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x0000000020001d2c       0x10 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
  .bss.usbd_serial_str
-                0x0000000020001d68       0x11 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+                0x0000000020001d3c       0x11 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
  .bss._app_driver_count
-                0x0000000020001d79        0x1 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x0000000020001d4d        0x1 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
  .bss._sof_enable
-                0x0000000020001d7a        0x1 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x0000000020001d4e        0x1 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
  .bss.boot2_copyout_valid
-                0x0000000020001d7b        0x1 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
- .bss.claimed   0x0000000020001d7c        0x1 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x0000000020001d4f        0x1 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
+ .bss.claimed   0x0000000020001d50        0x1 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
  .bss.irq_hander_chain_free_slot_head
-                0x0000000020001d7d        0x1 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- .bss.itf_num   0x0000000020001d7e        0x1 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+                0x0000000020001d51        0x1 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ .bss.itf_num   0x0000000020001d52        0x1 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
  .bss.low_priority_irq_num
-                0x0000000020001d7f        0x1 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x0000000020001d53        0x1 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
  .bss.one_shot_timer_pending
-                0x0000000020001d80        0x1 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x0000000020001d54        0x1 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
  .bss.timer_callbacks_pending
-                0x0000000020001d81        0x1 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x0000000020001d55        0x1 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
  .bss.user_irq_claimed
-                0x0000000020001d82        0x1 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x0000000020001d56        0x1 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
  *(COMMON)
-                0x0000000020001d84                . = ALIGN (0x4)
- *fill*         0x0000000020001d83        0x1 
-                0x0000000020001d84                __bss_end__ = .
+                0x0000000020001d58                . = ALIGN (0x4)
+ *fill*         0x0000000020001d57        0x1 
+                0x0000000020001d58                __bss_end__ = .
 
-.heap           0x0000000020001d84      0x800
-                0x0000000020001d84                __end__ = .
-                0x0000000020001d84                end = __end__
+.heap           0x0000000020001d58      0x800
+                0x0000000020001d58                __end__ = .
+                0x0000000020001d58                end = __end__
  *(.heap*)
- .heap          0x0000000020001d84      0x800 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
-                0x0000000020002584                __HeapLimit = .
+ .heap          0x0000000020001d58      0x800 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
+                0x0000000020002558                __HeapLimit = .
 
 .stack1_dummy   0x0000000020040000        0x0
  *(.stack1*)
@@ -2520,8 +2493,8 @@ LOAD /opt/homebrew/Cellar/arm-none-eabi-gcc/10-2020-q4-major/gcc/bin/../lib/gcc/
  *(.stack*)
  .stack         0x0000000020041000      0x800 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
 
-.flash_end      0x00000000100087c0        0x0
-                0x00000000100087c0                PROVIDE (__flash_binary_end = .)
+.flash_end      0x0000000010007c68        0x0
+                0x0000000010007c68                PROVIDE (__flash_binary_end = .)
                 0x0000000020040000                __StackLimit = (ORIGIN (RAM) + LENGTH (RAM))
                 0x0000000020041000                __StackOneTop = (ORIGIN (SCRATCH_X) + LENGTH (SCRATCH_X))
                 0x0000000020042000                __StackTop = (ORIGIN (SCRATCH_Y) + LENGTH (SCRATCH_Y))
@@ -2601,7 +2574,7 @@ LOAD CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/lib/tinyusb/s
 LOAD CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
 LOAD CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
 LOAD CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj
-LOAD /var/folders/cq/cqm68txs2bb19051cyzl5q5h0000gn/T//ccH5S2Qs.o
+LOAD /var/folders/cq/cqm68txs2bb19051cyzl5q5h0000gn/T//cc7jCd1q.o
 LOAD /opt/homebrew/Cellar/arm-none-eabi-gcc/10-2020-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libstdc++.a
 LOAD /opt/homebrew/Cellar/arm-none-eabi-gcc/10-2020-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libm.a
 START GROUP
@@ -2627,106 +2600,103 @@ LOAD linker stubs
  .ARM.attributes
                 0x000000000000004a       0x2c CMakeFiles/P2.dir/P2.c.obj
  .ARM.attributes
-                0x0000000000000076       0x2c CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/Drone/code/lib/ICM_20948/src/util/ICM_20948_C.c.obj
+                0x0000000000000076       0x2c CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
  .ARM.attributes
-                0x00000000000000a2       0x2c CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+                0x00000000000000a2       0x2c CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
  .ARM.attributes
-                0x00000000000000ce       0x2c CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
+                0x00000000000000ce       0x2c CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
  .ARM.attributes
-                0x00000000000000fa       0x2c CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+                0x00000000000000fa       0x2c CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
  .ARM.attributes
-                0x0000000000000126       0x2c CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+                0x0000000000000126       0x2c CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
  .ARM.attributes
-                0x0000000000000152       0x2c CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x0000000000000152       0x22 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
  .ARM.attributes
-                0x000000000000017e       0x22 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
+                0x0000000000000174       0x2c CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
  .ARM.attributes
-                0x00000000000001a0       0x2c CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
+                0x00000000000001a0       0x2c CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
  .ARM.attributes
-                0x00000000000001cc       0x2c CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+                0x00000000000001cc       0x2c CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
  .ARM.attributes
-                0x00000000000001f8       0x2c CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
+                0x00000000000001f8       0x2c CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/common/pico_time/time.c.obj
  .ARM.attributes
-                0x0000000000000224       0x2c CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x0000000000000224       0x2c CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
  .ARM.attributes
-                0x0000000000000250       0x2c CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x0000000000000250       0x2c CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/common/pico_util/pheap.c.obj
  .ARM.attributes
-                0x000000000000027c       0x2c CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x000000000000027c       0x2c CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
  .ARM.attributes
-                0x00000000000002a8       0x2c CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+                0x00000000000002a8       0x2c CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
  .ARM.attributes
-                0x00000000000002d4       0x2c CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+                0x00000000000002d4       0x2c CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
  .ARM.attributes
-                0x0000000000000300       0x2c CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+                0x0000000000000300       0x2c CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
  .ARM.attributes
-                0x000000000000032c       0x2c CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+                0x000000000000032c       0x2c CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
  .ARM.attributes
-                0x0000000000000358       0x2c CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x0000000000000358       0x2c CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .ARM.attributes
-                0x0000000000000384       0x2c CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x0000000000000384       0x22 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
  .ARM.attributes
-                0x00000000000003b0       0x22 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+                0x00000000000003a6       0x2c CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
  .ARM.attributes
-                0x00000000000003d2       0x2c CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+                0x00000000000003d2       0x22 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
  .ARM.attributes
-                0x00000000000003fe       0x22 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+                0x00000000000003f4       0x22 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
  .ARM.attributes
-                0x0000000000000420       0x22 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x0000000000000416       0x2c CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
  .ARM.attributes
-                0x0000000000000442       0x2c CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+                0x0000000000000442       0x22 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
  .ARM.attributes
-                0x000000000000046e       0x22 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x0000000000000464       0x22 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
  .ARM.attributes
-                0x0000000000000490       0x22 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+                0x0000000000000486       0x22 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
  .ARM.attributes
-                0x00000000000004b2       0x22 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+                0x00000000000004a8       0x2c CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
  .ARM.attributes
-                0x00000000000004d4       0x2c CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+                0x00000000000004d4       0x22 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
  .ARM.attributes
-                0x0000000000000500       0x22 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+                0x00000000000004f6       0x22 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
  .ARM.attributes
-                0x0000000000000522       0x22 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
+                0x0000000000000518       0x32 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .ARM.attributes
-                0x0000000000000544       0x32 CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x000000000000054a       0x2c CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .ARM.attributes
-                0x0000000000000576       0x2c CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x0000000000000576       0x2c CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
  .ARM.attributes
-                0x00000000000005a2       0x2c CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+                0x00000000000005a2       0x2c CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
  .ARM.attributes
-                0x00000000000005ce       0x2c CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x00000000000005ce       0x2c CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
  .ARM.attributes
-                0x00000000000005fa       0x2c CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+                0x00000000000005fa       0x2c CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
  .ARM.attributes
-                0x0000000000000626       0x2c CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
+                0x0000000000000626       0x2c CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
  .ARM.attributes
-                0x0000000000000652       0x2c CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
+                0x0000000000000652       0x2c CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
  .ARM.attributes
-                0x000000000000067e       0x2c CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x000000000000067e       0x2c CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
  .ARM.attributes
-                0x00000000000006aa       0x2c CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+                0x00000000000006aa       0x2c CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
  .ARM.attributes
-                0x00000000000006d6       0x2c CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x00000000000006d6       0x2c CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
  .ARM.attributes
-                0x0000000000000702       0x2c CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+                0x0000000000000702       0x2c CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
  .ARM.attributes
-                0x000000000000072e       0x2c CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x000000000000072e       0x2c CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
  .ARM.attributes
-                0x000000000000075a       0x2c CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
+                0x000000000000075a       0x2c CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
  .ARM.attributes
-                0x0000000000000786       0x2c CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x0000000000000786       0x2c CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj
  .ARM.attributes
-                0x00000000000007b2       0x2c CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj
+                0x00000000000007b2       0x22 /var/folders/cq/cqm68txs2bb19051cyzl5q5h0000gn/T//cc7jCd1q.o
  .ARM.attributes
-                0x00000000000007de       0x22 /var/folders/cq/cqm68txs2bb19051cyzl5q5h0000gn/T//ccH5S2Qs.o
+                0x00000000000007d4       0x1e /opt/homebrew/Cellar/arm-none-eabi-gcc/10-2020-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
  .ARM.attributes
-                0x0000000000000800       0x1e /opt/homebrew/Cellar/arm-none-eabi-gcc/10-2020-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
- .ARM.attributes
-                0x000000000000081e       0x2c /opt/homebrew/Cellar/arm-none-eabi-gcc/10-2020-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-strlen-stub.o)
+                0x00000000000007f2       0x2c /opt/homebrew/Cellar/arm-none-eabi-gcc/10-2020-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-strlen-stub.o)
 
 .comment        0x0000000000000000       0x4d
  .comment       0x0000000000000000       0x4d CMakeFiles/P2.dir/P2.c.obj
                                          0x4e (size before relaxing)
- .comment       0x000000000000004d       0x4e CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/Drone/code/lib/ICM_20948/src/util/ICM_20948_C.c.obj
  .comment       0x000000000000004d       0x4e CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
  .comment       0x000000000000004d       0x4e CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
  .comment       0x000000000000004d       0x4e CMakeFiles/P2.dir/Users/deemo/Desktop/workspace/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
